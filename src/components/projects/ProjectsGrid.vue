@@ -9,7 +9,7 @@ export default {
 	data: () => {
 		return {
 			projects,
-			projectsHeading: 'Projects Portfolio',
+			projectsHeading: 'KISK Portfolio',
 			selectedCategory: '',
 			searchProject: '',
 		};
@@ -72,7 +72,7 @@ export default {
 					mb-4
 				"
 			>
-				Search projects by title or filter by category
+				Vyhledejte podle názvu nebo filtrujte kategorie
 			</h3>
 			<div
 				class="
@@ -123,7 +123,7 @@ export default {
 						name="name"
 						type="search"
 						required=""
-						placeholder="Search Projects"
+						placeholder="Vyhledat"
 						aria-label="Name"
 					/>
 				</div>

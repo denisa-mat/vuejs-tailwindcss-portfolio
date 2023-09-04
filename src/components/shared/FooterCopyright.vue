@@ -3,8 +3,8 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
+			projectName: 'Denisa M. Portfolio',
+			author: 'Me',
 		};
 	},
 };
@@ -23,7 +23,7 @@ export default {
 			>
 				{{ projectName }}
 			</a>
-			. Developed by
+			. Developed/Redesigned by
 			<a
 				href="https://stoman.me"
 				target="__blank"

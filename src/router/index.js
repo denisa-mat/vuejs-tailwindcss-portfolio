@@ -1,13 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 
+const webTitle = "Denisa M."
+
 const routes = [
 	{
 		path: '/',
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Stoman - Home',
+			title: webTitle,
 		},
 	},
 	{
@@ -19,7 +21,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Stoman - About',
+			title: webTitle,
 		},
 	},
 	{
@@ -31,12 +33,13 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Stoman - Projects',
+			title: webTitle,
 		},
 	},
 	{
-		path: '/projects/single-project',
-		name: 'Single Project',
+		path: '/projects/:id',
+		props: true,
+		name: 'ProjectDetail',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
@@ -45,7 +48,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Stoman - Single Project',
+			title: webTitle,
 		},
 	},
 	{
@@ -57,7 +60,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Stoman - Contact',
+			title: webTitle,
 		},
 	},
 ];
