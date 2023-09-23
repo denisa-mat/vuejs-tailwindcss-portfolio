@@ -2,17 +2,23 @@
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 
 export default {
-	name: 'Projects',
-	components: {
-		ProjectsGrid,
-	},
+  name: 'Projects',
+  components: {
+    ProjectsGrid,
+  },
+  computed: {
+    currentRouteName() {
+      return this.$route.name;
+    }
+  }
 };
 </script>
 
 <template>
-	<div class="container mx-auto">
-		<ProjectsGrid />
-	</div>
+  <div>{{ currentRouteName }}</div>
+  <div class="container mx-auto">
+    <ProjectsGrid />
+  </div>
 </template>
 
 <style scoped></style>

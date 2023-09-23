@@ -1,35 +1,65 @@
 <script>
-import {defineComponent, onMounted} from "vue";
+import {defineComponent, onMounted, onUpdated} from "vue";
 
-import {ref} from "@vue/reactivity";
-import FormTextarea from "@/components/reusable/FormTextarea.vue";
 import Loading from "@/components/reusable/Loading.vue";
 import feather from "feather-icons";
-import {firestore} from "firebase-admin";
-import {v4 as uuidv4} from 'uuid';
-
+import {firebase} from "@/firebaseInit";
+import {collection, addDoc, getFirestore} from "firebase/firestore";
+// import {getFirestore} from "firebase/firestore";
 
 export default defineComponent({
-  computed: {
-    da() {
-      return da
+  data() {
+    return {
+      name: '',
+      message: '',
+      db: getFirestore(firebase),
+      pid: this.id,
+      labelMessage: 'Zpráva',
+      labelName: 'Jméno',
+      errorMessage: '',
+      errorCanNotBeEmptyMessage: 'Obě pole musí být vyplněna'
     }
   },
   props: ['id'],
-  components: {FormTextarea, Loading},
-  actions: {
-    async sendMessage() {
-      // await docRef.set({
-      //   first: 'Ada',
-      //   last: 'Lovelace',
-      //   born: 1815
-      // });
-      console.log("sendMessage triggered")
+  methods: {
+    async sendComment() {
+
+      if (this.message === '' || this.name === '') {
+        this.errorMessage = this.errorCanNotBeEmptyMessage
+      } else {
+        try {
+          const docRef = await addDoc(
+              collection(this.db, "comments/data/" + this.pid)
+              , {
+                timeStamp: Date.now(),
+                name: this.name,
+                message: this.message
+              });
+          console.log("Document written with ID: ", docRef.id);
+          this.name = ""
+          this.message = ""
+          this.errorMessage = ""
+        } catch (e) {
+          this.errorMessage = e.errorMessage
+          console.error("Error adding document: ", e);
+        }
+
+        console.log(this.pid)
+        console.log(this.name)
+        console.log(this.message)
+      }
+
     }
   },
+  computed: {},
+
+  components: {Loading},
+  actions: {},
   setup() {
-    const data = ref([]);
-    const isLoading = ref(true);
+
+    // const data = ref([]);
+    // const isLoading = ref(true);
+    // const db = firebase.firestore();
 
     // const fetchData = async () => {
     //   try {
@@ -44,22 +74,12 @@ export default defineComponent({
 
     onMounted(
         feather.replace
+
     )
 
-    const sendComment = () => {
-      firestore()
-          .collection('comments')
-          .doc('data')
-          .collection(this.props.id)
-          .doc(uuidv4())
-      console.log("ahoj")
-    }
-
-    return {
-      data,
-      // fetchData,
-      sendComment
-    };
+    onUpdated(
+        feather.replace
+    )
   },
 });
 
@@ -94,8 +114,24 @@ export default defineComponent({
 
   <v-container fluid>
     <v-row justify="center">
-      <v-col cols="7">
-        <FormTextarea label="zpráva"></FormTextarea>
+      <v-col cols="4">
+        <div>
+          <label
+              class="block text-lg text-primary-dark dark:text-primary-light mb-2"
+              :for="textareaIdentifier"
+          >{{ label }}</label
+          >
+          <textarea
+              class="w-full px-5 py-2 border border-gray-300 dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
+              :id="textareaIdentifier"
+              :name="textareaIdentifier"
+              :aria-label="textareaIdentifier"
+              :placeholder="this.labelMessage"
+              v-model="message"
+              cols="14"
+              rows="6"
+          ></textarea>
+        </div>
         <div
             class="
 					flex
@@ -126,9 +162,10 @@ export default defineComponent({
 						"
                 id="name"
                 name="name"
+                v-model="name"
                 type="search"
                 required=""
-                placeholder="Jméno"
+                :placeholder="this.labelName"
                 aria-label="Name"
             />
 
@@ -151,17 +188,20 @@ export default defineComponent({
                 data-feather="send"
                 class="text-ternary-dark dark:text-ternary-light"
             ></i>
-                          					</span>
+            </span>
 
           </button>
         </div>
 
       </v-col>
+      <p>{{ this.errorMessage }}</p>
     </v-row>
   </v-container>
 
 </template>
 
 <style scoped>
-
+p {
+  color: red;
+}
 </style>

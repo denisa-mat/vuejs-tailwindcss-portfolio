@@ -179,7 +179,8 @@
 import {defineProps} from "vue";
 import projects from "@/data/projects";
 import ProjectHeader from "@/components/projects/ProjectHeader.vue";
-import ProjectGallery from "@/components/projects/ProjectGallery.vue";
+import ProjectInfo from "@/components/projects/ProjectInfo.vue";
+import ProjectCommentSection from "@/components/projects/ProjectCommentSection.vue";
 // import {defineProps} from "vue"
 
 const props = defineProps({
@@ -193,9 +194,9 @@ const p = projects.find(p => {return p.id === Number(props.id)})
 </script>
 
 <template>
-	<div class="container mx-auto mt-10 sm:mt-20">
-		<!-- Project header -->
-		<ProjectHeader :singleProjectHeader="
+  <div class="container mx-auto mt-10 sm:mt-20">
+    <!-- Project header -->
+    <ProjectHeader :singleProjectHeader="
 		{
       singleProjectTitle: p.title,
       singleProjectDate: p.createdDate,
@@ -203,15 +204,16 @@ const p = projects.find(p => {return p.id === Number(props.id)})
     }"
     />
 
-		<!-- Project gallery -->
-		<ProjectGallery :projectImages="projectImages" />
+    <!-- Project gallery -->
+    <!--		<ProjectGallery :projectImages="projectImages" />-->
 
-		<!-- Project information -->
-		<ProjectInfo :projectInfo="projectInfo" />
+    <!-- Project information -->
+    <ProjectInfo :projectInfo="p" />
 
-		<!-- Project related projects -->
-		<ProjectRelatedProjects :relatedProject="relatedProject" />
-	</div>
+    <!-- Project related projects -->
+    <!--		<ProjectRelatedProjects :relatedProject="relatedProject" />-->
+    <project-comment-section :id="props.id"/>
+  </div>
 </template>
 
 <style scoped></style>

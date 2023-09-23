@@ -3,7 +3,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'LinkedIn',
 		icon: 'linkedin',
-		url: 'www.linkedin.com/in/matatkova',
+		url: 'https://www.linkedin.com/in/matatkova',
 	},
 	{
 		id: 2,

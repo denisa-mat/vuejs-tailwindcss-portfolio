@@ -25,6 +25,18 @@ const routes = [
 		},
 	},
 	{
+		path: '/kisk',
+		name: 'Kisk',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
+		meta: {
+			title: webTitle,
+		},
+	},
+	{
 		path: '/projects',
 		name: 'Projects',
 		// route level code-splitting
@@ -39,14 +51,44 @@ const routes = [
 	{
 		path: '/projects/:id',
 		props: true,
-		name: 'ProjectDetail',
+		name: 'ProjectsDetail',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
-			),
+				),
+		meta: {
+			title: webTitle,
+		},
+	},
+	{
+		path: '/detail/:id',
+		props: true,
+		name: 'Detail',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
+				),
+		meta: {
+			title: webTitle,
+		},
+	},
+	{
+		path: '/kisk/:id',
+		props: true,
+		name: 'KiskDetail',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
+				),
 		meta: {
 			title: webTitle,
 		},
@@ -59,6 +101,18 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
+		meta: {
+			title: webTitle,
+		},
+	},
+	{
+		path: '/:notFound',
+		name: 'PageNotFound',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "projects" */ '../views/PageNotFound.vue'),
 		meta: {
 			title: webTitle,
 		},
