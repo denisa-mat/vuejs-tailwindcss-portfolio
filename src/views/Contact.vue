@@ -27,10 +27,16 @@ export default {
         },
         {
           id: 3,
-          name: '605 953 459',
-          icon: 'phone',
-          url: 'callto:+420605953459'
-        },
+          name: 'LinkedIn',
+          icon: 'linkedin',
+          url: 'https://www.linkedin.com/in/matatkova/'
+        }
+        // {
+        //   id: 4,
+        //   name: '123456789',
+        //   icon: 'phone',
+        //   url: 'callto:+420123456789'
+        // },
       ],
     };
   },

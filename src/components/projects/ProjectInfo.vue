@@ -21,11 +21,11 @@ const props = defineProps({
 })
 
 onUpdated(
-  feather.replace
+    feather.replace
 )
 
 onMounted(
-  feather.replace
+    feather.replace
 )
 
 props.projectInfo
@@ -38,7 +38,6 @@ props.projectInfo
     <div class="w-full sm:w-1/3 text-left">
       <!-- Single project client details -->
       <div class="mb-7">
-
         <p
             class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
         >
@@ -68,7 +67,7 @@ props.projectInfo
                   style="display: inline-block;"
               />
             </a>
-            <a v-else> {{ info.detail }} </a>
+            <a v-else :id="'info'+info.title"> {{ info.detail }} </a>
           </li>
         </ul>
       </div>

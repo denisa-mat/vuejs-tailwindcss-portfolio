@@ -8,9 +8,13 @@ export default {
   components: { ProjectSingle, ProjectsFilter },
   data: () => {
     return {
-      projectsHeading: 'KISK Portfolio',
+      projectsHeading:  ' Portfolio',
       selectedCategory: '',
       searchProject: '',
+      heading: {
+        "Projects": "Projekty",
+        "Kisk": "KISK"
+      }
     };
   },
   computed: {
@@ -60,7 +64,7 @@ export default {
       <p
           class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light"
       >
-        {{ projectsHeading }}
+        {{ heading[this.$route.name] + projectsHeading}}
       </p>
     </div>
     <!-- Filter and search projects -->
