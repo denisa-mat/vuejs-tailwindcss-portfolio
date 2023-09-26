@@ -24,26 +24,26 @@ export default {
       return this.projects;
     },
     projects() {
-      return projects.filter((item) => item.type === this.$route.name )
+      return projects.filter((item) => item.type === this.$route.name)
+    },
+    selectOptions() {
+      return projects.filter((item) => item.type === this.$route.name).map((item) => item.category)
     }
   },
   methods: {
     // Filter projects by category
     filterProjectsByCategory() {
-      const projects = projects;
       return projects.filter((item) => {
         let category =
             item.category.charAt(0).toUpperCase() +
             item.category.slice(1);
-        console.log(category);
-        return category.includes(this.selectedCategory);
+        return category.includes(this.selectedCategory) && item.type === this.$route.name;
       });
     },
     // Filter projects by title search
     filterProjectsBySearch() {
-      const projects = projects;
       let project = new RegExp(this.searchProject, 'i');
-      return projects.filter((el) => el.title.match(project));
+      return projects.filter((el) => el.title.match(project) && el.type === this.$route.name);
     },
   },
   mounted() {
@@ -130,7 +130,7 @@ export default {
               aria-label="Name"
           />
         </div>
-        <ProjectsFilter @filter="selectedCategory = $event" />
+        <ProjectsFilter @filter="selectedCategory = $event" :selectOptions="selectOptions" select="Všechny"/>
       </div>
     </div>
 

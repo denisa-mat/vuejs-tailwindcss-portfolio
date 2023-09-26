@@ -6,9 +6,9 @@ export default {
   },
   data: () => {
     return {
-      experienceTitle: 'Years of experience',
-      githubTitle: 'Stars on GitHub',
-      feedbackTitle: 'Positive feedback',
+      experienceTitle: 'osmice hobitů',
+      czechitasTitle: 'odučených kurzů a lekcí',
+      workTitle: 'datový analytik v KM',
       projectsTitle: 'Projects completed',
     };
   },
@@ -21,13 +21,51 @@ export default {
     <div
         class="font-general-regular container mx-auto py-20 block sm:flex sm:justify-between sm:items-center"
     >
-      <!-- Years of experience counter -->
+
+      <!-- GitHub stars counter -->
       <div class="mb-20 sm:mb-0">
         <counter
             ref="counter"
             :startAmount="0"
-            :endAmount="12"
+            :endAmount="8"
             :duration="1"
+            :autoinit="true"
+            suffix="+"
+            @finished="alert(`Counting finished!`)"
+            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+        />
+        <span
+            class="block text-md text-ternary-dark dark:text-ternary-light"
+        >{{ czechitasTitle }}</span
+        >
+      </div>
+
+      <!-- Positive feedback counter -->
+      <div class="mb-20 sm:mb-0">
+        <counter
+            ref="counter"
+            :startAmount="0"
+            :endAmount="2"
+            :duration="1"
+            :autoinit="true"
+            suffix=" roky"
+            @finished="alert(`Counting finished!`)"
+            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+        />
+        <span
+            class="block text-md text-ternary-dark dark:text-ternary-light"
+        >
+					{{ workTitle }}
+				</span>
+      </div>
+      <!-- Years of experience counter -->
+      <div class="mb-20 sm:mb-0">
+        <counter
+            ref="counter"
+            :startAmount="8"
+            :endAmount="1"
+            :duration="1"
+            suffix=" Hobbyte"
             :autoinit="true"
             @finished="alert(`Counting finished!`)"
             class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -40,60 +78,24 @@ export default {
 				</span>
       </div>
 
-      <!-- GitHub stars counter -->
-      <div class="mb-20 sm:mb-0">
-        <counter
-            ref="counter"
-            :startAmount="0"
-            :endAmount="20"
-            :duration="1"
-            suffix="k+"
-            :autoinit="true"
-            @finished="alert(`Counting finished!`)"
-            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
-        />
-        <span
-            class="block text-md text-ternary-dark dark:text-ternary-light"
-        >{{ githubTitle }}</span
-        >
-      </div>
-
-      <!-- Positive feedback counter -->
-      <div class="mb-20 sm:mb-0">
-        <counter
-            ref="counter"
-            :startAmount="0"
-            :endAmount="92"
-            :duration="1"
-            suffix="%"
-            :autoinit="true"
-            @finished="alert(`Counting finished!`)"
-            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
-        />
-        <span
-            class="block text-md text-ternary-dark dark:text-ternary-light"
-        >
-					{{ feedbackTitle }}
-				</span>
-      </div>
 
       <!-- Projects completed counter -->
-      <div class="mb-20 sm:mb-0">
-        <counter
-            ref="counter"
-            :startAmount="0"
-            :endAmount="77"
-            :duration="1"
-            :autoinit="true"
-            @finished="alert(`Counting finished!`)"
-            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
-        />
-        <span
-            class="block text-md text-ternary-dark dark:text-ternary-light"
-        >
-					{{ projectsTitle }}
-				</span>
-      </div>
+<!--      <div class="mb-20 sm:mb-0">-->
+<!--        <counter-->
+<!--            ref="counter"-->
+<!--            :startAmount="0"-->
+<!--            :endAmount="77"-->
+<!--            :duration="1"-->
+<!--            :autoinit="true"-->
+<!--            @finished="alert(`Counting finished!`)"-->
+<!--            class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"-->
+<!--        />-->
+<!--        <span-->
+<!--            class="block text-md text-ternary-dark dark:text-ternary-light"-->
+<!--        >-->
+<!--					{{ projectsTitle }}-->
+<!--				</span>-->
+<!--      </div>-->
     </div>
   </div>
 </template>

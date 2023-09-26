@@ -13,11 +13,20 @@
 <!--};-->
 <!--</script>-->
 <script setup>
-import {defineProps} from "vue";
+import {defineProps, onMounted, onUpdated} from "vue";
+import feather from "feather-icons";
 
 const props = defineProps({
   projectInfo: {}
 })
+
+onUpdated(
+  feather.replace
+)
+
+onMounted(
+  feather.replace
+)
 
 props.projectInfo
 // co
@@ -107,6 +116,31 @@ props.projectInfo
       >
         {{ projectDetail.details }}
       </p>
+
+      <div v-for="section in projectInfo.content"
+           :key="section.sectionId"
+           class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+      >
+        <p
+            class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-2"
+        >
+          {{ section.sectionHeading }}
+        </p>
+        <p
+          class="font-general-light mb-4 text-sm text-secondary-dark dark:text-secondary-light"
+        >
+          {{section.sectionDate}}
+        </p>
+        <p
+            v-for="paragraph in section.sectionParagraphs"
+            :key="paragraph.id"
+            class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+        >
+          {{ paragraph.details }}
+        </p>
+      </div>
+
+
     </div>
   </div>
 </template>

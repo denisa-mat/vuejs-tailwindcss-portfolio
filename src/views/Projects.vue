@@ -7,15 +7,11 @@ export default {
     ProjectsGrid,
   },
   computed: {
-    currentRouteName() {
-      return this.$route.name;
-    }
   }
 };
 </script>
 
 <template>
-  <div>{{ currentRouteName }}</div>
   <div class="container mx-auto">
     <ProjectsGrid />
   </div>
