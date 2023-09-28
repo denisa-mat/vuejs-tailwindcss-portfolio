@@ -31,7 +31,10 @@ export default {
       return projects.filter((item) => item.type === this.$route.name)
     },
     selectOptions() {
-      return projects.filter((item) => item.type === this.$route.name).map((item) => item.category)
+      return projects
+          .filter((item) => item.type === this.$route.name)
+          .map((item) => item.category)
+          .filter((value, index, self) => self.indexOf(value) === index)
     }
   },
   methods: {

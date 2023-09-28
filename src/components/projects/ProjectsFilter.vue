@@ -7,10 +7,8 @@ export default {
       required: true,
     },
     selectOptions: {
-      type: Array,
-      default: () => [
-        '1. semestr',
-      ],
+      type: Set,
+      default: () => [ ],
     },
   },
 };

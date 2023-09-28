@@ -10,6 +10,9 @@ export default {
     // ProjectsGrid,
     // Button,
   },
+  mounted() {
+    console.log(localStorage.getItem('theme'))
+  }
 };
 </script>
 

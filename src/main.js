@@ -23,7 +23,7 @@ createApp(App)
 	.use(vuetify)
 	.mount('#app');
 
-const appTheme = localStorage.getItem('theme');
+const appTheme = localStorage.getItem('theme')
 
 // Check what is the active theme and change theme when user clicks on the theme button in header.
 if (

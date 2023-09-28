@@ -33,6 +33,7 @@ props.projectInfo
 </script>
 
 <template>
+
   <div class="block sm:flex gap-0 sm:gap-10 mt-14">
     <!-- Single project left section details -->
     <div class="w-full sm:w-1/3 text-left">
