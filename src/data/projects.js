@@ -265,7 +265,7 @@ const projects = [
 	type: "Kisk",
 	title: 'ISKM55 Nástroje a metody datové analytiky',
 	category: '1. semestr',
-	img: require('@/assets/images/ISKM55.jpg'),
+	img: require('@/assets/images/preview_img/ISKM55.jpg'),
 	createdDate: '01. 10. 2023',
 	tag: 'kisk',
 	about: 'O předmětu',
