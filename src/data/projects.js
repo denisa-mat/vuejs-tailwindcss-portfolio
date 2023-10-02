@@ -261,7 +261,7 @@ const projects = [
 
 	// ISKM55 Nástroje a metody datové analytiky
 	{
-	id: 1,
+	id: 4,
 	type: "Kisk",
 	title: 'ISKM55 Nástroje a metody datové analytiky',
 	category: '1. semestr',
