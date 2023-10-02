@@ -343,7 +343,7 @@ const projects = [
 			},
 			{
 				id: 6,
-				details: 'Snímky obrazovky jsou ve sdílené složce na kterou je odkaz v bočím panelu.'
+				details: 'Snímky obrazovky a vytvořené soubory jsou ve sdílené složce na kterou je odkaz v bočním panelu.'
 			},
 		]
 	}
