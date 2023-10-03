@@ -106,7 +106,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/:notFound',
+		path: '/:pathMatch(.*)*',
 		name: 'PageNotFound',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route

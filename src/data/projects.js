@@ -8,7 +8,7 @@ const projects = [
 		type: "Kisk",
 		title: 'ISKM01 Informační vědy',
 		category: '1. semestr',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: 'https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728_1280.jpg',
 		createdDate: '26. 9. 2023',
 		tag: 'kisk',
 		about: 'O předmětu',
@@ -92,7 +92,7 @@ const projects = [
 		type: "Kisk",
 		title: 'ISKM02 Design informačních služeb, rozhraní a interakcí',
 		category: '1. semestr',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: 'https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg',
 		createdDate: 'Jul 26, 2021',
 		tag: 'kisk',
 		about: 'O předmětu',
@@ -181,7 +181,7 @@ const projects = [
 		type: "Kisk",
 		title: 'ISKM03 Literatura, knihovní procesy a trh',
 		category: '1. semestr',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: 'https://cdn.pixabay.com/photo/2018/06/17/09/58/book-3480216_1280.jpg',
 		createdDate: 'Jul 26, 2021',
 		tag: 'projekt',
 		about: 'O předmětu',
@@ -259,13 +259,91 @@ const projects = [
 		],
 	},
 
+	// ISKM31 Vzdělávací technologie
+	{
+		id: 4,
+		type: "Kisk",
+		title: 'ISKM31 Vzdělávací technologie',
+		category: '1. semestr',
+		img: 'https://cdn.pixabay.com/photo/2023/02/04/17/28/chat-7767693_1280.jpg',
+		createdDate: '26. 9. 2023',
+		tag: 'kisk',
+		about: 'O předmětu',
+		aboutDetail: [
+			{
+				title: 'Semetr',
+				detail: 'podzim 2023',
+				link: false
+			},
+			{
+				title: 'Ukončení',
+				detail: 'zkouška',
+				link: false
+			},
+			{
+				title: 'Počet kreditů',
+				detail: '5',
+				link: false
+			},
+			{
+				title: 'Sylabus',
+				detail: 'ISKM31',
+				url: 'https://is.muni.cz/predmet/phil/podzim2023/ISKM31',
+				link: true
+			},
+			// {
+			// 	title: 'Soubory',
+			// 	detail: 'OneDrive složka',
+			// 	url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/Em02sF2vt0xFg-8NetjxmKABie-40GBe1izOkuCdrQ6eBA?e=3Hp9uB',
+			// 	link: true
+			// }
+		],
+		descriptionHeading: 'Popis předmetu',
+		descriptionDetail: 'Cílem předmětu je nabídnout studentům základní vhled do problematiky vzdělávacích technologií. To, co se student teoreticky naučí, může hned konfrontovat s praxí. Studenti získají kontakt se skutečně aktuálními a důležitými trendy a budou připraveni na jejich širokou aplikaci do praxe. ',
+		toolsHeading: 'Nástroje a dovednosti',
+		toolsDetail: [
+
+		],
+
+		projectDetailsHeading: 'Lorem ipsum',
+		projectDetails: [
+			{
+				id: 1,
+				details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+			},
+			// {
+			// 	id: 2,
+			// 	details: 'Integer tempor. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nulla pulvinar eleifend sem. Nullam sit amet magna in magna gravida vehicula. In enim a arcu imperdiet malesuada. Praesent in mauris eu tortor porttitor accumsan. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas sollicitudin. Nam sed tellus id magna elementum tincidunt. In rutrum. Proin in tellus sit amet nibh dignissim sagittis. Nullam sit amet magna in magna gravida vehicula. Aliquam erat volutpat. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Nullam dapibus fermentum ipsum. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Duis pulvinar. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. '
+			// }
+		],
+
+		content: [
+			{
+				sectionHeading: 'První přednáška',
+				sectionId: 1,
+				sectionDate: '23. 10. 2023',
+				sectionParagraphs: [
+					{
+						id: 1,
+						details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+					},
+					// {
+					// 	id: 2,
+					// 	details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+					// }
+				]
+			}
+		],
+	},
+
 	// ISKM55 Nástroje a metody datové analytiky
 	{
 	id: 4,
 	type: "Kisk",
 	title: 'ISKM55 Nástroje a metody datové analytiky',
 	category: '1. semestr',
-	img: require('@/assets/images/preview_img/ISKM55.jpg'),
+	imgOld: require('@/assets/images/preview_img/ISKM55.jpg'),
+		img: 'https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_1280.jpg',
 	createdDate: '01. 10. 2023',
 	tag: 'kisk',
 	about: 'O předmětu',

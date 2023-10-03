@@ -33,7 +33,7 @@ export default {
 				dark:text-ternary-light
 			"
   >
-    <option value class="text-sm sm:text-md">Všechny semestry</option>
+    <option value class="text-sm sm:text-md">Vše</option>
     <option
         v-for="option in selectOptions"
         :key="option"

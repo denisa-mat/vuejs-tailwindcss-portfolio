@@ -14,7 +14,7 @@ export default {
       <img
           :src="project.img"
           :alt="project.title"
-          class="rounded-t-xl border-none"
+          class="rounded-t-xl border-none cropped"
       />
     </div>
     <div class="text-center px-4 py-6">
@@ -31,4 +31,10 @@ export default {
   </router-link>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.cropped {
+  height: 240px;
+  width: 400px;
+  object-fit: cover;
+}
+</style>

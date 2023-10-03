@@ -18,11 +18,6 @@ export default {
         {{ subtitle }}
       </p>
     </div>
-<!--    <img-->
-<!--        class="container mx-auto"-->
-<!--        src="@/assets/images/blank-canvas.svg"-->
-<!--        alt="placeholder"-->
-<!--    />-->
     <img
         class="mx-auto"
         :src="require('@/assets/images/' + img + '')"
