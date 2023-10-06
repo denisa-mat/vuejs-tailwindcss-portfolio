@@ -15,7 +15,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -89,7 +89,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -163,7 +163,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -238,7 +238,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -312,7 +312,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -386,7 +386,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 			{
-				title: 'Semetr',
+				title: 'Semestr',
 				detail: 'podzim 2023',
 				link: false
 			},
@@ -460,7 +460,7 @@ const projects = [
 		about: 'O předmětu',
 		aboutDetail: [
 		{
-			title: 'Semetr',
+			title: 'Semestr',
 			detail: 'podzim 2023',
 			link: false
 		},
@@ -557,7 +557,7 @@ const projects = [
 // 		about: 'O předmětu',
 // 		aboutDetail: [
 // 			{
-// 				title: 'Semetr',
+// 				title: 'Semestr',
 // 				detail: 'semestr',
 // 				link: false
 // 			},
