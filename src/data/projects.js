@@ -425,7 +425,7 @@ const projects = [
 		projectDetails: [
 			{
 				id: 1,
-				details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+				details: 'Lorem ipsum dolor sit amet, consectetuer adipisci	ng elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
 			},
 		],
 		content: [
@@ -531,13 +531,33 @@ const projects = [
 				]
 			},
 			{
-				sectionHeading: 'Úkol 1',
+				sectionHeading: 'Úkol 2',
 				sectionId: 1,
-				sectionDate: '2. 10. 2023',
+				sectionDate: '9. 10. 2023',
 				sectionParagraphs: [
 					{
 						id: 1,
-						details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam.',
+						details: 'Na druhém cvičení jsme se zabývali web scrapingem (získávání strukturovaných dat z webu) pomocí xPath. Totéž bylo za cílem v první části druhého úkolu. Zadáním bylo vytvořit v tabulkách google dynamický seznam 48 sporttesterů obsahující název, cenové rozpětí a hodnocení.',
+					},
+					{
+						id: 2,
+						details: 'Získat název nebylo obtížné a moje xPath vypadá následovně: //a[@class=\'c-product__link\'. Problém nastal, když bylo potřeba získat 48 výsledků, protože na stránce je jich 24. Je možné, že existuje i lepší řešení, já jsem zvolila postup úpravy URL. V rámci URL adresy je parametr f, který obsahuje informaci o čísle stránky, provedla jsem tedy dvakrát IMPORTXML s hodnotami tohoto atributu 1 a 2.',
+					},
+					{
+						id: 3,
+						details: 'Totéž jsem udělala pro cenu a hodnocení zákazníků. Největší problém byl v občasné neexistenci hodnocení. Čekala bych, že se vynechá řádek, což se ovšem neděje, a tedy se následně hodnocení zobrazuje posunuté a u jiných produktů, než je správně. Možná je to pokročilou noční hodinou ovšem tenhle problém se mi nepodařilo nijak vyřešit. ',
+					},
+					{
+						id: 4,
+						details: 'Odkaz na výslednou tabulku se nachází ve sdílené složce k tomuto úkolu.',
+					},
+					{
+						id: 5,
+						details: 'V druhé části úkolu jsem se rozhodla vyzkoušet nástroj Geneea, který o sobě tvrdí, že dokáže analyzovat velké množství textů. Celkem mě překvapilo, že jde o český nástroj, a tedy velmi dobře pracuje s češtinou.',
+					},
+					{
+						id: 6,
+						details: 'Po nahrání článku do demo verze, nástroj vrátí základní atributy textu a například také návrh na tagy, což by se dalo využít například při tvorbě článků nebo organizaci poznámek. Dále si dokážu představit využití entities cloudu například pro účel prezentace nějakého obsáhlejšího písemného textu. Nevím, jestli jsem jen neobjevila tu možnost, ale přišlo by mi užitečné, analyzovat články i na základě URL adresy.',
 					},
 				],
 			},
