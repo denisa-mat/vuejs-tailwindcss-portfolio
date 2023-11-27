@@ -137,7 +137,13 @@ props.projectInfo
             class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
         >
           {{ paragraph.details }}
+          <img
+              v-if="paragraph.image !== undefined"
+              :src="paragraph.image"
+              alt="foto k odstavci"/>
         </p>
+
+
       </div>
 
 

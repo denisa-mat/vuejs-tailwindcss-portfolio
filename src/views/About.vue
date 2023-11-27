@@ -1,15 +1,17 @@
 <script>
 import AboutMe from '@/components/about/AboutMe';
 import AboutCounter from '@/components/about/AboutCounter';
-import AboutClients from '@/components/about/AboutClients';
+// import AboutClients from '@/components/about/AboutClients';
 import feather from 'feather-icons';
+import AboutMeAndKisk from "@/components/about/AboutMeAndKisk.vue";
 
 export default {
 	name: 'About',
 	components: {
+    AboutMeAndKisk,
 		AboutMe,
 		AboutCounter,
-		AboutClients,
+		// AboutClients,
 	},
 	data: () => {
 		return {};
@@ -36,8 +38,10 @@ export default {
 
 		<!-- About counter -->
 		<div class="container mx-auto">
-			<AboutClients />
+<!--			<AboutClients />-->
+      <AboutMeAndKisk/>
 		</div>
+
 	</div>
 </template>
 

@@ -27,7 +27,7 @@ export default {
           bio:
               'Bakalářské vzdělání mám z dvouoborového studia matematiky a informatiky ve vzdělávání na Přf a FI MUNi. ' +
               'Už v\xa0průběhu studia jsem začala vést v organizaci Czechitas kroužky, tábory i jednorázové kurzy pro děti zaměřené na programování ve Scratchi, ale i robotiku a další. ' +
-              'Zároveň pracuju v korporátu jako datový analytik, kde vytvářím interní reporty v Power Bi dle požadavků jednotlivých oddělení.'
+              'Zároveň pracuju v korporátu jako datový analytik, kde vytvářím interní reporty v Power BI dle požadavků jednotlivých oddělení.'
         },
         {
           id: 5,
@@ -65,3 +65,4 @@ export default {
     </div>
   </div>
 </template>
+

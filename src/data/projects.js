@@ -454,7 +454,9 @@ const projects = [
 		type: "Kisk",
 		title: 'ISKM55 Nástroje a metody datové analytiky',
 		category: '1. semestr',
+
 		img: 'https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_1280.jpg',
+		//img: 'https://drive.google.com/uc?export=view&id=1IKZ8-KulM4cJbcabsYsq0ar_BdynbdfX',
 		createdDate: '01. 10. 2023',
 		tag: 'kisk',
 		about: 'O předmětu',
@@ -561,6 +563,49 @@ const projects = [
 					},
 				],
 			},
+				{
+					sectionHeading: 'Úkol 4',
+					sectionId: 1,
+					sectionDate: '27. 11. 2023',
+					sectionParagraphs: [
+						{
+							id: 1,
+							details: 'Cílem úkolu bylo vizualizovat data týkající se teroristických útoků ve světě od roku 1970. Nejprve jsem do Power BI nahrála data z excelu a provedla základní transformace. V případě delší práce s daty by bylo potřeba provést transformací asi více, já udělala pouze ty, o kterých jsem tušila, že by mi způsobili potíže při následné tvorbě vizuálu. V průběhu tvorby jsem ještě došla na to, že by se mi hodilo mít data o tom zda byl útok úspěšný i textově ne pouze jako hodnoty 1 a 0.',
+						},
+						{
+							id: 2,
+							details: 'Nejprve jsem si zvolila barvy a rozhodla jsem se, co chci, aby report obshaoval za výstupy. Měla jsem na výběr splnit bodové zadání nebo vytvořit stránky s vlastním obsahem. Zvolila jsem střední cestu a vytvořila vlastní inspirovaný zadáním. Podmínkou však bylo mít dvě strany - kompletní přehled a detail na zvolený region.',
+						},
+						{
+							id: 3,
+							details: 'Vytvořený report není statický a umožňuje filtrování dat pomocí slicerů. První slicer slouží k filtraci podle roku útoku a je typu posuvník. Druhý slicer se zaměřuje na typy útoků a je ve formátu dlaždic. Třetí slicer filtruje data podle regionu a je ve formě vícevýběrového výčtu.',
+						},
+						{
+							id: 4,
+							details: 'Report má dvě stránky: "Přehled" a "Detail pro daný region." Slicery jsou pro obě stránky stejné, s výjimkou třetího sliceru, který filtruje buď podle regionu nebo země. Oba slicery však zobrazují odlišný obsah.',
+						},
+						{
+							id: 5,
+							details: 'Na stránce "Přehled" jsou zobrazeny dvě číselné karty: celkový počet útoků a procentuální úspěšnost útoků. Dále jsou data vizualizována dvěma grafy. První je horizontální sloupcový graf zobrazující absolutní počet útoků podle regionu. Druhý je spojnicový graf ukazující vývoj počtu teroristických útoků v čase s rozdělením na úspěšné a neúspěšné útoky.',
+						},
+						{
+							id: 6,
+							details: 'Přesuneme se na stránku "Detail" pomocí funkce drill-through, a zpět se vrátíme pomocí tlačítka v levém horním rohu detailu. Stránka "Detail" obsahuje kromě slicerů tabulku s detaily jednotlivých zemí, zahrnující počet útoků, absolutní počet úspěšných útoků a procentuální podíl úspěšných útoků. Další tabulka zobrazuje top 5 nejčastějších cílů s informacemi o cíli útoku a absolutním počtu. Poslední vizuál na stránce "Detail" je skládaný plošný graf ukazující vývoj počtu útoků v čase.',
+						},
+						{
+							id: 7,
+							details: 'Jednou z výzev při tvorbě vizuálu bylo filtrování podle typu útoku, který byl rozptýlen do tří sloupců. Řešením bylo vytvořit sloupec pro každý typ útoku a použít slicery dlaždicového typu pro filtraci. Každý slicer má nastavený filtr pouze pro neprázdné hodnoty, obsahuje tedy vždy jednu dlaždici. Při užití tohoto sliceru i mizí ostatní možnosti, které nemají s vybraným průnik. Pomocí záložky jsem přidala tlačítko s funkcí vymazat filtry pro lepší uživatelské ovládání.',
+						},
+						{
+							id: 8,
+							details: 'Zkoušela jsem integrovat vizuální mapu, ale vyskytlo se nečekané umístění západního Německa v Oceánii a další podobné chyby, které přisuzuju historickým datům. Výsledné vizuály jsem prošla a nepotkala jsem žádné na první pohled viditelné nesrovnalosti.',
+						},
+						{
+							id: 9,
+							details: 'Odkaz na vzniklý pbix soubor a snímky obrazovky se nachází ve sdílené složce k tomuto úkolu.',
+						},
+					],
+				},
 		],
 	},
 
