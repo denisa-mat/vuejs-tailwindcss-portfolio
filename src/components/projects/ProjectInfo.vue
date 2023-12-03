@@ -15,6 +15,7 @@
 <script setup>
 import {defineProps, onMounted, onUpdated} from "vue";
 import feather from "feather-icons";
+import {ElementTypeEnum} from "@/model/ElementTypeEnum.ts";
 
 const props = defineProps({
   projectInfo: {}
@@ -29,12 +30,76 @@ onMounted(
 )
 
 props.projectInfo
+ElementTypeEnum.Link
 // co
 </script>
 
 <template>
 
   <div class="block sm:flex gap-0 sm:gap-10 mt-14">
+
+    <!-- Single project right section details -->
+    <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
+      <p
+          class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
+      >
+        {{ projectInfo.projectDetailsHeading }}
+      </p>
+      <p
+          v-for="projectDetail in projectInfo.projectDetails"
+          :key="projectDetail.id"
+          class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+      >
+        {{ projectDetail.details }}
+      </p>
+
+      <div v-for="section in projectInfo.content"
+           :key="section.sectionId"
+           class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+      >
+        <p
+            class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-2"
+        >
+          {{ section.sectionHeading }}
+        </p>
+        <p
+            class="font-general-light mb-4 text-sm text-secondary-dark dark:text-secondary-light"
+        >
+          {{ section.sectionDate }}
+        </p>
+        <div
+            v-for="paragraph in section.sectionParagraphs"
+            :key="paragraph.id"
+            class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+        >
+          <p v-if="(paragraph.type !== undefined
+          && paragraph.type === ElementTypeEnum.Text) || paragraph.type === undefined">
+            {{ paragraph.details }}
+          </p>
+          <img
+              v-else-if="paragraph.type === ElementTypeEnum.Image"
+              :src="paragraph.details"
+              alt="foto k odstavci"
+          />
+          <a v-else-if="paragraph.type === ElementTypeEnum.Link"
+             :href="paragraph.details"
+             target="_blank"
+             :class="'hover:underline cursor-pointer'"
+          >{{ paragraph.linkName }}
+            <i
+                data-feather="external-link"
+                class="w-3 h-3 text-ternary-dark dark:text-ternary-light"
+                style="display: inline-block;"
+            />
+          </a>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
     <!-- Single project left section details -->
     <div class="w-full sm:w-1/3 text-left">
       <!-- Single project client details -->
@@ -102,52 +167,6 @@ props.projectInfo
       </div>
     </div>
 
-    <!-- Single project right section details -->
-    <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-      <p
-          class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
-      >
-        {{ projectInfo.projectDetailsHeading }}
-      </p>
-      <p
-          v-for="projectDetail in projectInfo.projectDetails"
-          :key="projectDetail.id"
-          class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-      >
-        {{ projectDetail.details }}
-      </p>
-
-      <div v-for="section in projectInfo.content"
-           :key="section.sectionId"
-           class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-      >
-        <p
-            class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-2"
-        >
-          {{ section.sectionHeading }}
-        </p>
-        <p
-          class="font-general-light mb-4 text-sm text-secondary-dark dark:text-secondary-light"
-        >
-          {{section.sectionDate}}
-        </p>
-        <p
-            v-for="paragraph in section.sectionParagraphs"
-            :key="paragraph.id"
-            class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-        >
-          {{ paragraph.details }}
-          <img
-              v-if="paragraph.image !== undefined"
-              :src="paragraph.image"
-              alt="foto k odstavci"/>
-        </p>
-
-
-      </div>
-
-
-    </div>
   </div>
 </template>
 
