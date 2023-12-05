@@ -10,7 +10,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM01 Informační vědy',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1cFkkjWiNUjKbNbOl_ENhO4cd8l1s3Gmn',
         createdDate: '26. 9. 2023',
         tag: 'kisk',
         about: 'O předmětu',
@@ -38,8 +38,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/Em02sF2vt0xFg-8NetjxmKABQFtKyzmf953huGFg469Lmg?e=ETGttL',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1CQZDPc48bOBTuyjJFrs1w8bCgdARksov?usp=sharing',
                 link: true
             }
         ],
@@ -84,7 +84,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM02 Design informačních služeb, rozhraní a interakcí',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1ByxWBV01cs3Bvqo71EVuZRVoQPcxOdVs',
         createdDate: 'Jul 26, 2021',
         tag: 'kisk',
         about: 'O předmětu',
@@ -112,8 +112,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/EgpPRGScl-tKpZ75KAR6sncBDxu6-exz_U7zqeQ06nUXaA?e=XeAbP2',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1aFrEdCimEDhlHC_V6g0bzXfiW434KB03?usp=sharing',
                 link: true
             }
         ],
@@ -158,7 +158,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM03 Literatura, knihovní procesy a trh',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2018/06/17/09/58/book-3480216_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1dCvDpojo17X8C4QHKgvDjMZEqyeXhejk',
         createdDate: 'Jul 26, 2021',
         tag: 'kisk',
         about: 'O předmětu',
@@ -186,8 +186,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/EmxdVrFC9JZCtXSkK9gZlwQBh8cYrS4i0LcYN7Mh6CPGxw?e=T8gWtT',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1qu1w1LHs6siV_VVBMiIzZqsdgEVtC_ZQ?usp=sharing',
                 link: true
             }
         ],
@@ -232,8 +232,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM04 Seminář k diplomové práci I: Východiska a metodologie',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2020/05/31/16/48/write-5243229_1280.jpg',
-        // img: 'https://cdn.pixabay.com/photo/2017/03/09/12/31/error-2129569_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1avWnmOJqyZU9NvgTavNyR_FLnCUrYQNv',
         createdDate: '00. 00. 0000',
         tag: 'kisk',
         about: 'O předmětu',
@@ -261,8 +260,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'link_one_drive',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1akMk_7e2sX729-asC04z3bE91xd5xMme?usp=sharing',
                 link: true
             }
         ],
@@ -307,7 +306,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM29 Blok expertů',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2016/10/16/00/36/one-against-all-1744093_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1US-FlUWd6SewlPiMSwS0MAyzTrmrkdlg',
         createdDate: '00. 00. 0000',
         tag: 'kisk',
         about: 'O předmětu',
@@ -335,8 +334,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'link_one_drive',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/19fnd-APi7GBzG26zTWIPlLWZaE5kjxk3?usp=sharing',
                 link: true
             }
         ],
@@ -381,7 +380,7 @@ const projects = [
         type: "Kisk",
         title: 'ISKM31 Vzdělávací technologie',
         category: '1. semestr',
-        img: 'https://cdn.pixabay.com/photo/2021/12/26/13/42/lego-6895159_1280.jpg',
+        img: 'https://drive.google.com/uc?export=view&id=1YkrEHVTBt2s5Ml2F0EdP_lG1ExaRh120',
         createdDate: '26. 9. 2023',
         tag: 'kisk',
         about: 'O předmětu',
@@ -409,8 +408,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/Em02sF2vt0xFg-8NetjxmKABie-40GBe1izOkuCdrQ6eBA?e=3Hp9uB',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1vKJk6SvVVHVUMm5GNDCHXMDbAmfiUnxK?usp=sharing',
                 link: true
             }
         ],
@@ -457,7 +456,6 @@ const projects = [
         category: '1. semestr',
 
         img: 'https://drive.google.com/uc?export=view&id=154xI9RxiFQN52_5AomIvgB5ylX2WlwFa',
-        //img: 'https://drive.google.com/uc?export=view&id=1IKZ8-KulM4cJbcabsYsq0ar_BdynbdfX',
         createdDate: '01. 10. 2023',
         tag: 'kisk',
         about: 'O předmětu',
@@ -485,8 +483,8 @@ const projects = [
             },
             {
                 title: 'Soubory',
-                detail: 'OneDrive složka',
-                url: 'https://ucnmuni-my.sharepoint.com/:f:/g/personal/485131_muni_cz/EkmCxEv6eO1Kjq-r9YbyEokB6c8zXJAk7eWf9fwpcD2kAQ?e=VTOAxl',
+                detail: 'Google disk',
+                url: 'https://drive.google.com/drive/folders/1768MVSjUAzpVZaH0WUSU5PvHDvGWhryt?usp=drive_link',
                 link: true
             }
         ],
@@ -496,9 +494,11 @@ const projects = [
         toolsDetail: [
             'CSV',
             'XML',
-            'API'
+            'API',
+            'Excel',
+            'Power BI',
+            'Pandas'
         ],
-        //projectDetailsHeading: 'Předmět',
         projectDetails: [
             {
                 id: 1,
@@ -512,6 +512,12 @@ const projects = [
                 sectionDate: '2. 10. 2023',
                 sectionParagraphs: [
                     {
+                        id: 0,
+                        type: ElementTypeEnum.Link,
+                        linkName: 'Úkol 1',
+                        details: 'https://drive.google.com/drive/folders/1x0E5q3EQX63fRamtpGclYZUqvvqNgm8M?usp=drive_link'
+                    },
+                    {
                         id: 1,
                         details: 'První úkol se skládá z více částí, konkrétně vytvoření CSV souboru zobrazující náš týdenní rozvrh, práce s GPX formátem a vyzkoušení práce s API.'
                     },
@@ -521,14 +527,30 @@ const projects = [
                     },
                     {
                         id: 3,
-                        details: 'Pro vizualizaci trasy jsem zvolila cestu z Náměstí Svobody kolem Červeného kostela až k hlavní budově filozofické fakulty. Trasu jsem si naplánovala v mapy.cz odkud lze exportovat gpx soubor. GPX formát je XML schéma, navržené pro data GPS. Pro zobrazení vygenerovaného schématu je použit gpsvisualizer.com.'
+                        details: 'Pro vizualizaci trasy jsem zvolila cestu z Náměstí Svobody kolem Červeného kostela až k hlavní budově filozofické fakulty. Trasu jsem si naplánovala v mapy.cz odkud lze exportovat gpx soubor. '
+                    },
+                    {
+                        id: 11,
+                        type: ElementTypeEnum.Image,
+                        details: 'https://drive.google.com/uc?export=view&id=1bBO3VqsDko2D2hetcKQbPU5ADElH9wpT'
                     },
                     {
                         id: 4,
+                        details: 'GPX formát je XML schéma, navržené pro data GPS. Pro zobrazení vygenerovaného schématu je použit gpsvisualizer.com.'
+                    },
+
+                    {
+                        id: 12,
+                        type: ElementTypeEnum.Image,
+                        details: 'https://drive.google.com/uc?export=view&id=176e28sZLe_FbTq10dr4yYf1CFAvEJMv_'
+                    },
+
+                    {
+                        id: 5,
                         details: 'Dalším pod-úkolem bylo zjistit jakým způsobem komunikuje iRIS se serverem, aby v aplikaci mapa.idsjmk.cz vozidla vypadala, že jsou v pohybu. Web pravidělně volá přepisovaný json soubor https://mapa.idsjmk.cz/api/vehicles.json který obsahuje informace o všech aktuálně jedoucích vozidlech. Každé vozidlo má několik atributů - ID, název linky, aktuální polohu GPS (zeměpisná šířka a délka), počíteční a koncovou zastávku a další. Přišlo mi zajímavé, že je použito API map.cz.'
                     },
                     {
-                        id: 5,
+                        id: 6,
                         details: 'Vyzkoušela jsem se dotazovat pomocí služby postman na PokeAPI. Musím říct, že jsem si pro zkoušení asi měla vybrat nějaké jednodušší. Vzhledem k množství pokemonů a informací, které o jednotlivých pokémonech jsou nebylo jednoduché se ve výsledku vyznat. Nicméně podařilo se mi získat například seznam všech pokémonů mužského pohlaví (pokeapi.co/api/v2/gender/2/) nebo informace o mém oblíbeném Piplupovi (https://pokeapi.co/api/v2/pokemon/piplup).'
                     },
                 ]
@@ -538,6 +560,12 @@ const projects = [
                 sectionId: 1,
                 sectionDate: '9. 10. 2023',
                 sectionParagraphs: [
+                    {
+                        id: 0,
+                        type: ElementTypeEnum.Link,
+                        linkName: 'Úkol 2',
+                        details: 'https://drive.google.com/drive/folders/1ojW9vUkzSKbV4WsiHUwKqpW60roS5VXm?usp=drive_link'
+                    },
                     {
                         id: 1,
                         details: 'Na druhém cvičení jsme se zabývali web scrapingem (získávání strukturovaných dat z webu) pomocí xPath. Totéž bylo za cílem v první části druhého úkolu. Zadáním bylo vytvořit v tabulkách google dynamický seznam 48 sporttesterů obsahující název, cenové rozpětí a hodnocení.',
@@ -565,21 +593,49 @@ const projects = [
                 ],
             },
             {
+                sectionHeading: 'Úkol 3',
+                sectionId: 1,
+                sectionDate: '20. 11. 2023',
+                sectionParagraphs: [
+                    {
+                        id: 0,
+                        type: ElementTypeEnum.Link,
+                        linkName: 'Úkol 3',
+                        details: 'https://drive.google.com/drive/folders/15vLghZriXhjTeizAjP-G6WL4MfHOrZg-?usp=sharing'
+                    },
+                    {
+                        id: 1,
+                        details: 'Analýza v Excelu',
+                    }
+                ]
+            },
+            {
                 sectionHeading: 'Úkol 4',
                 sectionId: 1,
                 sectionDate: '27. 11. 2023',
                 sectionParagraphs: [
+                    {
+                        id: 0,
+                        type: ElementTypeEnum.Link,
+                        linkName: 'Úkol 4',
+                        details: 'https://drive.google.com/drive/folders/1A2ODVXdOcezlwEmfunjES4JwlrRiM6Ly?usp=drive_link'
+                    },
                     {
                         id: 1,
                         details: 'Cílem úkolu bylo vizualizovat data týkající se teroristických útoků ve světě od roku 1970. Nejprve jsem do Power BI nahrála data z excelu a provedla základní transformace. V případě delší práce s daty by bylo potřeba provést transformací asi více, já udělala pouze ty, o kterých jsem tušila, že by mi způsobili potíže při následné tvorbě vizuálu. V průběhu tvorby jsem ještě došla na to, že by se mi hodilo mít data o tom zda byl útok úspěšný i textově ne pouze jako hodnoty 1 a 0.',
                     },
                     {
                         id: 2,
-                        details: 'Nejprve jsem si zvolila barvy a rozhodla jsem se, co chci, aby report obshaoval za výstupy. Měla jsem na výběr splnit bodové zadání nebo vytvořit stránky s vlastním obsahem. Zvolila jsem střední cestu a vytvořila vlastní inspirovaný zadáním. Podmínkou však bylo mít dvě strany - kompletní přehled a detail na zvolený region.',
+                        details: 'Nejprve jsem si zvolila barvy a rozhodla jsem se, co chci, aby report obsahoval za výstupy. Měla jsem na výběr splnit bodové zadání nebo vytvořit stránky s vlastním obsahem. Zvolila jsem střední cestu a vytvořila vlastní inspirovaný zadáním. Podmínkou však bylo mít dvě strany - kompletní přehled a detail na zvolený region.',
                     },
                     {
                         id: 3,
                         details: 'Vytvořený report není statický a umožňuje filtrování dat pomocí slicerů. První slicer slouží k filtraci podle roku útoku a je typu posuvník. Druhý slicer se zaměřuje na typy útoků a je ve formátu dlaždic. Třetí slicer filtruje data podle regionu a je ve formě vícevýběrového výčtu.',
+                    },
+                    {
+                        id: 10,
+                        type: ElementTypeEnum.Image,
+                        details: 'https://drive.google.com/uc?export=view&id=1YEOm9RlGFmacQt_XsKOtdIpLPg62PnTY'
                     },
                     {
                         id: 4,
@@ -594,6 +650,11 @@ const projects = [
                         details: 'Přesuneme se na stránku "Detail" pomocí funkce drill-through, a zpět se vrátíme pomocí tlačítka v levém horním rohu detailu. Stránka "Detail" obsahuje kromě slicerů tabulku s detaily jednotlivých zemí, zahrnující počet útoků, absolutní počet úspěšných útoků a procentuální podíl úspěšných útoků. Další tabulka zobrazuje top 5 nejčastějších cílů s informacemi o cíli útoku a absolutním počtu. Poslední vizuál na stránce "Detail" je skládaný plošný graf ukazující vývoj počtu útoků v čase.',
                     },
                     {
+                        id: 11,
+                        type: ElementTypeEnum.Image,
+                        details: 'https://drive.google.com/uc?export=view&id=1v0NXFScSxMF_5FA2wDbqVfMLXxt4yqi-'
+                    },
+                    {
                         id: 7,
                         details: 'Jednou z výzev při tvorbě vizuálu bylo filtrování podle typu útoku, který byl rozptýlen do tří sloupců. Řešením bylo vytvořit sloupec pro každý typ útoku a použít slicery dlaždicového typu pro filtraci. Každý slicer má nastavený filtr pouze pro neprázdné hodnoty, obsahuje tedy vždy jednu dlaždici. Při užití tohoto sliceru i mizí ostatní možnosti, které nemají s vybraným průnik. Pomocí záložky jsem přidala tlačítko s funkcí vymazat filtry pro lepší uživatelské ovládání.',
                     },
@@ -605,19 +666,19 @@ const projects = [
                         id: 9,
                         details: 'Odkaz na vzniklý pbix soubor a snímky obrazovky se nachází ve sdílené složce k tomuto úkolu.',
                     },
-                    {
-                        id: 10,
-                        type: ElementTypeEnum.Link,
-                        linkName: 'Úkol 4',
-                        details: 'https://drive.google.com/uc?export=view&id=1A2ODVXdOcezlwEmfunjES4JwlrRiM6Ly'
-                    },
-                    {
-                        id: 11,
-                        type: ElementTypeEnum.Image,
-                        details: 'https://drive.google.com/uc?export=view&id=1YEOm9RlGFmacQt_XsKOtdIpLPg62PnTY'
-                    }
                 ],
             },
+            {
+                sectionHeading: 'Úkol 5',
+                sectionId: 1,
+                sectionDate: '4. 12. 2023',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Pátým úkolem bylo upravit vzhled reportu a jednotlivých vizuálů podle designových principů. Protože jsem tyto principy aplikovala už při vytvoření reportu, rozhodla jsem se v tomto úkolu nic nepředělávat.'
+                    }
+                ]
+            }
         ],
     },
 

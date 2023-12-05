@@ -29,13 +29,13 @@ export default {
               'Už v\xa0průběhu studia jsem začala vést v organizaci Czechitas kroužky, tábory i jednorázové kurzy pro děti zaměřené na programování ve Scratchi, ale i robotiku a další. ' +
               'Zároveň pracuju v korporátu jako datový analytik, kde vytvářím interní reporty v Power BI dle požadavků jednotlivých oddělení.'
         },
-        {
-          id: 5,
-          bio:
-              'Mezi mé koníčky patří především čtení knih, které jsem bohužel v posledních letech vyměnila za čtení technické dokumentace a skript z matematiky. ' +
-              'Občas je to také zábavné čtení, ale o\xa0dracích, hobitech nebo čarodějkách se tam obvykle nedočtu. 🦄 ' +
-              'Doufám, že bude prostor zase začít číst více. '
-        },
+        // {
+        //   id: 5,
+        //   bio:
+        //       'Mezi mé koníčky patří především čtení knih, které jsem bohužel v posledních letech vyměnila za čtení technické dokumentace a skript z matematiky. ' +
+        //       'Občas je to také zábavné čtení, ale o\xa0dracích, hobitech nebo čarodějkách se tam obvykle nedočtu. 🦄 ' +
+        //       'Doufám, že bude prostor zase začít číst více. '
+        // },
       ],
     };
   },
