@@ -10,8 +10,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM01 Informační vědy',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1cFkkjWiNUjKbNbOl_ENhO4cd8l1s3Gmn',
-        //img: 'https://drive.usercontent.google.com/download?id=1ByxWBV01cs3Bvqo71EVuZRVoQPcxOdVs&export=view&authuser=0',
+        img: 'https://cdn.pixabay.com/photo/2018/03/27/21/43/startup-3267505_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1cFkkjWiNUjKbNbOl_ENhO4cd8l1s3Gmn',
         //img: 'https://ucnmuni-my.sharepoint.com/personal/485131_muni_cz/Documents/KISK/IMG/ISKM01.jpg',
         createdDate: '26. 9. 2023',
         tag: 'kisk',
@@ -86,7 +86,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM02 Design informačních služeb, rozhraní a interakcí',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1ByxWBV01cs3Bvqo71EVuZRVoQPcxOdVs',
+        img: 'https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1ByxWBV01cs3Bvqo71EVuZRVoQPcxOdVs',
         //img: 'https://ucnmuni-my.sharepoint.com/personal/485131_muni_cz/Documents/KISK/IMG/ISKM02.jpg',
         createdDate: 'Jul 26, 2021',
         tag: 'kisk',
@@ -161,7 +162,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM03 Literatura, knihovní procesy a trh',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1dCvDpojo17X8C4QHKgvDjMZEqyeXhejk',
+        img: 'https://cdn.pixabay.com/photo/2020/05/23/20/08/books-5211309_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1dCvDpojo17X8C4QHKgvDjMZEqyeXhejk',
         //img: 'https://ucnmuni-my.sharepoint.com/personal/485131_muni_cz/Documents/KISK/IMG/ISKM03.jpg',
         createdDate: 'Jul 26, 2021',
         tag: 'kisk',
@@ -203,29 +205,146 @@ const projects = [
             // 'JS',
             // 'VUE'
         ],
-        projectDetailsHeading: 'Příspěvek se připravuje',
+        //projectDetailsHeading: 'Příspěvek se připravuje',
         projectDetails: [
             {
                 id: 1,
-                details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                details: 'Ukončení tohoto předmětu se skádá z několika dílčích částí. Jednou z nich je esej na zvolené literární téma. Dále splnění třech volitelných kreativních výzev a jedné zaměřené na knihovny. Poslední částí je skupinový projekt zaměřený na simulaci nakladatelství a žádost o grant na vytvoření knižní miniedice.'
             },
         ],
         content: [
             {
-                sectionHeading: 'Lorem ipsum',
+                sectionHeading: 'Kreativní výzva číslo 6 návštěva kulturně kreativního centra KUMST',
                 sectionId: 1,
-                sectionDate: '00. 00. 0000',
+                sectionDate: '09. 01. 2024',
                 sectionParagraphs: [
                     {
                         id: 1,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                        details: "V rámci plnění výzev jsme s Kačkou vyrazily devátého ledna v mrazivém podvečeru na vernisáž do Kreativního hubu KUMST. KUMST je místo, které se snaží propojovat profesionály v kreativních odvětvích. Pořádají se zde přednášky, diskuse, workshopy. V KUMSTU je také možnost pronajmout si prostory od židle přes ateliér až po celý sál. Pro začínající kreativce jsou k dispozici i konzultace, jak začít podnikat nebo založit firmu."
                     },
                     {
                         id: 2,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                        details: "Dnes jsme navštívily jsme vernisáž s název WHERE DO BROKEN HEARTS GO brněnského abstraktního malíře Robina Blažka. Robin se malbě profesionálně věnuje poměrně krátce, ovšem kreativní práce se věnuje od dětství. Jak jsme se dozvěděly z kurátorského úvodu v rámci skupinových výstav měl své obrazy na výstavách v Milánu a Londýně."
+                    },
+                    {
+                        id: 3,
+                        details: "Hlavním tématem, kterému se ve svých dílech věnuje jsou lidé, mezilidské vztahy a poznatky z psychologie. Zároveň vzhledem k tomu, že jde o abstrakci jsou tematicky inspirované bouřkovými mračny a vesmírnými objekty."
+                    },
+                    {
+                        id: 4,
+                        details: "Osobně se mi obrazy velmi líbí, přišly mi svěží a poměrně pozitivní. Přestože obrazy jsou reflexí Robinových vlastních stavů nebo etap života snaží se o to, aby odkazovaly na způsoby, kterými se každý z nás vyrovnává se situacemi, která nás v životě potkají. V každém obrazu výstavy lze najít světlý bod, značící způsob, kterým lze každý problém vyřešit pozitivně."
+                    },
+                    {
+                        id: 5,
+                        details: "Vernisáže se účastnili především mladí lidé v autorově věku, výjimku mezi nimi tvořila jednoznačně odlišitelná skupina seniorů. Tito lidé nebyli na takovou akci vhodně oblečeni a jak jsem se dozvěděla na takové akce chodí poměrně často, a to pouze za účelem občerstvení z rautu. O tomto fenoménu jsem slyšela poprvé a celkem to kazilo jinak velmi dobrý dojem z výstavy i vernisáže."
+                    },
+                    {
+                        id: 6,
+                        details: "Výstava trvá až do posledního ledna, takže pokud půjdete kolem KUMSTu v pracovní den mezi devátou ráno a půl pátou odpoledne doporučuji udělat si zastávku. Zaujal mě i doprovodný program v rámci kterého se 24. ledna koná komentovaná prohlídka a diskuse s psychoterapeutkou na téma boření mýtů v oblasti psychoterapie a zvládání techniky mindfulness."
                     }
                 ]
-            }
+
+            },
+            {
+                sectionHeading: 'Kreativní výzva číslo 10 aneb proč lidi pracují v kavárně',
+                sectionId: 2,
+                sectionDate: '09. 01. 2024',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Jelikož sama chodím do kaváren za učením i prací poměrně často, přišel mi tenhle úkol velmi zajímavý. Byla jsem z něho zároveň poměrně nervózní, protože oslovit cizího člověka s tím, že bych si s ním chtěla povídat je velký výstup z mé komfortní zóny. Několikrát jsem si říkala, že tenhle člověk vypadá mile, přívětivě a že nikam nespěchá, odhodlat se mi ale trvalo tak dlouho, že ten člověk mezitím odešel a chytat někoho na odchodu mi přišlo nevhodné. Nakonec jsem však odhodlala. Žijeme přece na rozhraní."
+                    },
+                    {
+                        id: 2,
+                        details: "Navštívila jsem kavárnu Podnebí. Prozkoumávala terén a psala reflexi kreativní výzvy z vernisáže. Přišlo mi, že tam mnoho lidí nepracuje, což se v osm večer dalo očekávat, ale našla jsem dva lidi, kteří vypadli, že by pracovat mohli. Jak jsem psala výše, jeden z nich mi stihl odejít, než jsem se odvážila."
+                    },
+                    {
+                        id: 3,
+                        details: "Řekla jsem si, že další váhání už nepřichází v úvahu a šla za druhým vybraným. Byl to mladší muž, který většinu času seděl u stolu s dalšími lidmi, ale ti v tuhle chvíli někam šli. Sice nevypadal, že by se semnou chtěl příliš bavit, ale vyndal si sluchátko z ucha. Vysvětlila jsem mu situaci a co by mě zajímalo. Dozvěděla jsem se, že je zaměstnanec kavárny, nevím, co přesně tam dělá, ale chodí tam pracovat, protože má kávu zadarmo. Další pozitivum proti domovu je prý podstatně větší vzdálenost od postele. Občas prý chodí i do jiných kaváren, a to ze stejných důvodů (kávu má prý zadarmo jen někde). Ptala jsem se, jestli vidí na práci v kavárně nějaká negativa a prý ne."
+                    },
+                    {
+                        id: 4,
+                        details: "Bylo mi trochu nepříjemné někoho takhle vyrušovat z jeho práce, jsem ráda, že jsem si to vyzkoušela, ale nejsem si jistá, zda to chci někdy opakovat. Příběhy lidí mohou být velmi zajímavé a pokud někdy na někoho takového narazím a seberu odvahu zeptat se znovu, budou odpovědi doplněny."
+                    }
+                ]
+
+            },
+            {
+                sectionHeading: 'Kreativní výzva číslo 15/20 návštěva galerií',
+                sectionId: 3,
+                sectionDate: '30. 11. 2023',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Rozhodla jsem se upravit si kreativní výzvu týkající se návštěvy výstavy v Moravské galerii a Domě umění. Zadání tedy zní: Navštivte dvě výstavy či galerie v zahraničí."
+                    },
+                    {
+                        id: 2,
+                        details: "Na podzim jsem vyrazila na prodloužený víkend do Barcelony, kde jsme si jako správní turisti zakoupili Barcelona Card a když jsem na seznamu míst, které jsou s touto kartou zdarma viděla hned několik muzeí, galerií a dalších podobných prostor, bylo mi jasné, že by byla velká škoda je nenavštívit a tím si nesplnit nějakou z kreativních výzev."
+                    },
+                    {
+                        id: 3,
+                        details: "Hned první odpoledne jsem zavelela a vydali jsme se směrem Museu Picasso de Barcelona, což je dle letáčku nejnavštěvovanějším muzeem v Barceloně a obsahuje více než 4500 Picassových děl. Muzeum sídlí v historickém centru, což je jedna z nejhezčích částí Barcelony."
+                    },
+                    {
+                        id: 4,
+                        details: "Aktuálně v muzeu probíhá výstava Miró-Picasso, která odkazuje na jejich vzájemné přátelství a koná se zároveň zde a ve Fundació Joan Miró, jako součást akcí připomínající 50 let od úmrtí Pabla Picassa. Picassova sbírka je v muzeu skutečně ohromná a doplnění o díla Joana Miró jim dodalo další kontext. Abych však byla upřímná nepotkala jsem žádné Picassovo ikonické dílo, na které jsem se poměrně těšila a celkem mě to zklamalo. Je zde možnost, že nějaký takový obraz je v druhé části výstavy, kam jsme se nedostali nebo, a to je asi pravděpodobnější budou tato díla pravděpodobně součástí sbírek Pařížských galerií."
+                    },
+                    {
+                        id: 5,
+                        details: "Palácový komplex, ve kterém se muzeum nachází je skutečně rozlehlý a orientovat se v něm nebylo vůbec jednoduché. Přestože jednotlivé místnosti byli očíslovány, tak jsme se opakovaně dostávali do míst, kde už jsme byli a jsem s celkem jistá, že jsme nějakou část vynechali."
+                    },
+                    {
+                        id: 6,
+                        details: "I přes mírné zklamání, které je z části způsobeno milnými očekáváními, a ne úplně ideálním uspořádání prostor výstava stála za vidění."
+                    },
+                    {
+                        id: 7,
+                        details: "Druhé místo, na které jsme se vydali bylo Museu Nacional d’Art de Catalunya, které sídlí v Palau Nacional na kopci Montjuïc. Budova byla původně postavena pro mezinárodní výstavu v roce 1929 v současnosti jsou zde sbírky středověkého umění, románského i moderní umění především od katalánských umělců."
+                    },
+                    {
+                        id: 8,
+                        details: "Budova muzea je skutečně ohromující, stojí nad náměstím s kaskádami a zpívající fontánou, ta byla však během naší návštěvy v rekonstrukci. V muzeu je velká vstupní hala, z které je možné se dostat do všech expozic, které jsou k dispozici (a na které máte vstupenku). I zde mi přišlo nelogické uspořádání, i tady jsme bloudili a nebyli si jistí, kde už jsme byli. Některé expozice mají dokonce dva různé vstupy a jdou procházet dvěma způsoby, ale nikde není napsané, co který znamená a personál nám řekl, že je to jedno. Jeden jsme tedy zvolili a šli proto od nejnovějších děl po nejstarší. Osobně bych raději volila opačnou cestu."
+                    },
+                    {
+                        id: 9,
+                        details: "Dalším zklamáním byla absence popisů jednotlivých děl. Každé dílo mělo uvedené pouze autora a název v katalánštině. Až později jsem zjistila, že existuje mobilní aplikace s audioprůvodcem. Neměli jsem ale s sebou sluchátka a ani ta by nám tedy nepomohla."
+                    },
+                    {
+                        id: 10,
+                        details: "Kdybychom tušili naše zklamání předem šli bychom i jako nefanoušci fotbalu místo toho na El Clasico ženské fotbalové ligy, které se tou dobou hrálo vedle na Olympijském stadionu."
+                    }
+                ]
+
+            },
+            {
+                sectionHeading: 'Další kreativní výzvy',
+                sectionId: 4,
+                sectionDate: '10. 01. 2024',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Mnoho výzev mi přišlo zajímavých, a přestože jsem je například nesplnila kompletně přijde mi zajímavé je zde okrajově zmínit."
+                    },
+                    {
+                        id: 2,
+                        details: "Výzva jedna: Makerspace – Během tohoto semestru jsem se vyskytla hned v několika makerspace prostorech. První byl v rámci exkurze do poboček Pražské městské knihovny, kde v centrální pobočce na mariánském náměstí mají řekla bych velké množství nejrůznějších strojů. Druhá návštěva byla v rámci exkurze do knihovny v Poličce Půda, kde makerspace tvoří samostatné oddělení tamní městské knihovny. A byla jsem i v makerspace v knihovně filozofické fakulty podívat se jaké tam mají robotické pomůcky."
+                    },
+                    {
+                        id: 3,
+                        details: "Výzva třináct: Brněnské architektonické stezky – Zatím neabsolvováno, ale nějaké jsem si uložila a hned jak bude po zkouškách a aktuálních mrazech se na nějakou chystám."
+                    },
+                    {
+                        id: 4,
+                        details: "Výzva šestnáct: Edukativní videohra – Zvažovala jsem, že toto bude jedna z mých výzev a narazila jsem na hru https://galaxycodr.com/sk, která slouží k procvičení základů algoritmizace. Hra je slovenská a je velmi pěkně zvládnutá. Já vyzkoušela jen základní úroveň, ale dostalo se ke mně, že je tam chyba, která znemožňuje dostat se ve hře dál. Můžete ji zkusit najít."
+                    },
+                    {
+                        id: 5,
+                        details: "Výzva osmnáct: Nástroj AI – S umělou inteligencí jsem si tento semestr kreativně vyhrála v rámci předmětu vzdělávací technologie. O co přesně šlo si můžete přečíst v příspěvcích k předmětu."
+                    }
+                ]
+
+            },
         ],
     },
 
@@ -236,7 +355,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM04 Seminář k diplomové práci I: Východiska a metodologie',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1avWnmOJqyZU9NvgTavNyR_FLnCUrYQNv',
+        img: 'https://cdn.pixabay.com/photo/2020/05/31/16/48/write-5243229_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1avWnmOJqyZU9NvgTavNyR_FLnCUrYQNv',
         createdDate: '00. 00. 0000',
         tag: 'kisk',
         about: 'O předmětu',
@@ -310,7 +430,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM29 Blok expertů',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1US-FlUWd6SewlPiMSwS0MAyzTrmrkdlg',
+        img: 'https://cdn.pixabay.com/photo/2017/02/06/23/57/lecture-2044621_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1US-FlUWd6SewlPiMSwS0MAyzTrmrkdlg',
         createdDate: '00. 00. 0000',
         tag: 'kisk',
         about: 'O předmětu',
@@ -384,7 +505,8 @@ const projects = [
         type: "Kisk",
         title: 'ISKM31 Vzdělávací technologie',
         category: '1. semestr',
-        img: 'https://drive.google.com/uc?export=view&id=1YkrEHVTBt2s5Ml2F0EdP_lG1ExaRh120',
+        img: 'https://cdn.pixabay.com/photo/2021/12/26/13/42/lego-6895159_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=1YkrEHVTBt2s5Ml2F0EdP_lG1ExaRh120',
         createdDate: '26. 9. 2023',
         tag: 'kisk',
         about: 'O předmětu',
@@ -1027,7 +1149,8 @@ const projects = [
         title: 'ISKM55 Nástroje a metody datové analytiky',
         category: '1. semestr',
 
-        img: 'https://drive.google.com/uc?export=view&id=154xI9RxiFQN52_5AomIvgB5ylX2WlwFa',
+        img: 'https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_960_720.jpg',
+        //img: 'https://drive.google.com/uc?export=view&id=154xI9RxiFQN52_5AomIvgB5ylX2WlwFa',
         createdDate: '01. 10. 2023',
         tag: 'kisk',
         about: 'O předmětu',
