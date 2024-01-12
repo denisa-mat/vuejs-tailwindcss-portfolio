@@ -11,6 +11,7 @@ const projects = [
         title: 'ISKM01 Informační vědy',
         category: '1. semestr',
         img: 'https://drive.google.com/uc?export=view&id=1cFkkjWiNUjKbNbOl_ENhO4cd8l1s3Gmn',
+        //img: 'https://drive.usercontent.google.com/download?id=1ByxWBV01cs3Bvqo71EVuZRVoQPcxOdVs&export=view&authuser=0',
         //img: 'https://ucnmuni-my.sharepoint.com/personal/485131_muni_cz/Documents/KISK/IMG/ISKM01.jpg',
         createdDate: '26. 9. 2023',
         tag: 'kisk',
@@ -424,29 +425,597 @@ const projects = [
             // 'JS',
             // 'VUE'
         ],
-        projectDetailsHeading: 'Příspěvek se připravuje',
+        //projectDetailsHeading: 'Příspěvek se připravuje',
         projectDetails: [
             {
                 id: 1,
-                details: 'Lorem ipsum dolor sit amet, consectetuer adipisci	ng elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                details: 'Níže jsou dostupné všechny úkoly k přednáškám. Okomentované úkoly z cvičení budou doplněny později.'
             },
         ],
         content: [
             {
-                sectionHeading: 'První přednáška',
+                sectionHeading: 'Umělá inteligence I',
                 sectionId: 1,
-                sectionDate: '00. 00. 0000',
+                sectionDate: '06. 10. 2023',
                 sectionParagraphs: [
                     {
                         id: 1,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                        details: "První přenáška z předmětu vzdělávací technologie se věnovala tématu umělé inteligence v oblasti vzdělávání. Zadáním úkolu k této přednášce je najít nějaké eticky či sociálně problematické využití AI, ke kterému může dojít, když učitelé budou tento nástroj využívat ke své výuce. Následující odstavce popisují příklad práce s AI, způsobený problém a jeho důsledky na proces vzdělávání."
                     },
                     {
                         id: 2,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                        details: "Umělá inteligence nabízí zásadní vylepšení personalizace výuky a zefektivnění pedagogické činnosti. Většinu práce a času zabere v současnosti učitelům nepřímá pedagogická činnost, tedy administrativa, ale i samotná příprava na hodiny. Stále častěji se zmiňuje personalizovaná a individualizovaná výuka. Příprava takových lekcí, však zabírá neúměrné množství času, s čímž si dokážu představit, že by AI dokázala pomoc a přizpůsobovat studijní materiály individuálním potřebám studentů."
+                    },
+                    {
+                        id: 3,
+                        details: "Takový systém založený na AI sbírá a analyzuje data o chování a výkonu jednotlivých studentů, aby vytvořil vzdělávací plán na míru. Systém sleduje rychlost pokroku, ale i silné a slabé stránky. Na základě posbíraných dat pak dokáže upravit obsah i tempo výuky."
+                    },
+                    {
+                        id: 4,
+                        details: "Problémem takového systému může být vytváření problematických a diskriminujících zobecnění a následnému z(ne)výhodňování určitých studentů. Systém může například preferovat konkrétní vzdělávací styly nebo se spoléhá na data, která jsou něčím zkreslená. To může mít zásadní dopad na výuku, protože pokud se určitým skupinám studentům budou generovat náročnější úlohy je pravděpodobné, že v závěrečném srovnávání budou úspěšnější. To vede k nerovnostem ve výsledcích, ale i následnému přístupu k dalšímu vzdělávání. Dalším aspektem je omezení diverzity myšlení. Tím, že algoritmy upřednostňují určité vzdělávací přístupy, hrozí zúžení perspektiv a přístupů k učení. Tato omezení mohou bránit vzniku živých diskusí a interakcí, což je v rámci výuky klíčové pro podporu kreativity ve vzdělávacím procesu."
+                    },
+                    {
+                        id: 5,
+                        details: "Integrace umělé inteligenci do vzdělávacích systémů s ohledem na etické zásady a společenské hodnoty je velmi aktuální téma. Jak uvádí Anetta Jedličková: \"Etické požadavky vycházející z obecných etických principů byly co nejvíce konkretizovány, protože jen v konkrétní formě mohou být  využitelné  v  praxi,  a  využití  moderních technologií tak může být v souladu s individuálními i společenskými hodnotami a potřebami.\"[1]. Závěrem lze konstatovat, že využití AI ve vzdělávání má obrovský potenciál, ale současně přináší výzvy týkající se etiky a rovnosti. Je nezbytné nadále zdokonalovat a implementovat etické směrnice, aby se zajistilo, že moderní technologie slouží k prospěchu všem studentům a podporují inkluzivní vzdělávací prostředí."
+                    },
+                    {
+                        id: 6,
+                        details: "[1] JEDLIČKOVÁ, Anetta. Etické aspekty rozvoje umělé inteligence. Anthropologia integra [online]. 2022, Vol. 13, No. 2. [cit. 2024-10-05]. Dostupné z: https://journals.muni.cz/anthropologia_integra/article/view/32983/28375"
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'Umělá inteligence II',
+                sectionId: 2,
+                sectionDate: '06. 10. 2023',
+                sectionParagraphs:[
+                    {
+                        "id": 1,
+                        "details": "Úkol vztahující k druhé přednášce má dvě části. V první jsme si měli několik minut chatovat s ChatGPT a popsat naše pocity. V druhá část se odkazuje na úkol ze cvičení, kterým bylo vytvoření chatbota, konkrétně je úkolem popsat proces vymýšlení tématu."
+                    },
+                    {
+                        "id": 2,
+                        "details": "ChatGPT používám poměrně běžně, nejčastěji pro tematické vnuknutí myšlenky, když mi docházejí nápady nebo pro generování strukturovaných textů, na základě podkladů, které dodám. Povídat jsem si s tím zkoušela už před poměrně dlouhou dobou, takže mě zajímalo, jestli došlo k nějakému pokroku v této oblasti."
+                    },
+                    {
+                        "id": 3,
+                        "details": "Na úvod jen uvedu, že při komunikaci, pokud potřebuju oslovit, tak primárně používám střední rod z důvodu cílené depersonifikaci umělé inteligence. Zkoušela jsem začít rozhovor tím, že bych si chtěla povídat a nemám preferované téma. To fungovalo až nečekaně dobře a bylo navrženo téma cestování. V diskusi už jsem však narážela na to, že AI nemá vlastní názory, což je v pořádku, nic méně pro oboustrannou komunikaci je to poměrně náročné. Když jsem řekla, kde se mi líbilo reakcí byly komplimenty na dané místo a otázka rozvíjející konverzaci. Tyhle otázky mi po několika opakováních přišli vlastně dost otravné, měla jsem pocit, že nemám prostor sdělit, co bych chtěla a že se o druhé straně nic nedozvídám, což dává smysl, ale pro mě rozhovor neměl žádnou hodnotu. Zkoušela jsem i pokládat otázky na doporučení, ale odpovědí byl číslovaný seznam s možnostmi. Všechny uvedené aspekty ve mně jen utvrzovaly v pocitu, že člověk na druhé straně není. Zároveň to však může být ovlivněno mojí dosavadní snahou o odosobnění."
+                    },
+                    {
+                        "id": 4,
+                        "details": "Dala jsem tomu ještě jeden pokus a zkusila popsat, že si chci psát se ženou, které je 25 let, hraje volejbal a ráda cestuje a vaří. Začátek byl velmi příjemný a skutečně jako kdyby na druhé straně byl člověk, který se ptá na mé zájmy a sděluje něco i o sobě. Dokonce tam byli použité smajlíky. Když jsem se začala ptát na to, jestli někde byla, a co si myslí, tak mi začala připomínat, že je jen virtuální model. I tak, ale tahle konverzace byla mnohem příjemnější než ta předchozí. I ze strany AI byla konverzace hodnocena jako příjemná a inspirativní."
+                    },
+                    {
+                        "id": 5,
+                        "details": "Jako téma jsem si zvolila osobnosti kvíz týkající se osobností z historie IT, a to hned z několika důvodů. Když jsem začala přemýšlet, jakého chatbota vytvořit říkala jsem si, že nějaká forma kvízu se vzhledem k požadovanému rozsahu a mé dosavadní nezkušenosti s nástrojem bude vytvářet nejlépe. Pak jsem uvažovala nad tím, jaké konkrétně vybrat téma. Že vyberu něco z informatiky jsem asi věděla od začátku, protože je to téma, které je mi blízké. Pak jsem si vzpomněla na IT tábory, které jsem několik let spoluvedla, tam seznamujeme děti se zásadními osobnostmi historie. Došla jsem k tomu, že kvíz na osobnosti by mohl být fajn a mít teoreticky i praktické využití právě v rámci tábora. Konkrétní osobnosti jsem zvolila ty, o kterých si každý rok povídáme, takže to už bylo poměrně snadné. Žádný plánovací nástroj jsem při vymýšlení tématu nepoužila."
+                    },
+                    {
+                        "id": 6,
+                        "details": "Odkaz na vytvořeného chatbota je následující: https://webbot.me/c4c3663aa34008da8fff2a81ca1311872522a7ccd834d594d3c9ffa03a8d5419"
                     }
                 ]
-            }
+            },
+            {
+                sectionHeading: 'Zpracování emocí',
+                sectionId: 3,
+                sectionDate: '12. 10. 2023',
+                sectionParagraphs:[
+                    {
+                        "id": 1,
+                        "details": "V návaznosti na lekci, která se věnovala počítačovému zpracování emocí je mým úkolem zjistit, co všechno se v oblasti vzdělávání a počítačového zpracování emocí nyní dělá a navrhnout s využitím konkrétního nástroje nebo podle postupu z literatury uplatnění v edukační praxi."
+                    },
+                    {
+                        "id": 2,
+                        "details": "Podle studie Affective computing in education: A systematic review and future research z roku 2019 se výzkumy nyní zaměřují na zkoumání vztahů mezi emocemi, motivací, stylem učení a poznáváním a zkoumání vlivu emocí na záměr, úspěch a výkon uživatelů [1]. To jsou faktory, které mají potenciál poskytnout užitečné informace sloužící k optimalizaci výukových metod a dosažení efektivnějšího vzdělávání."
+                    },
+                    {
+                        "id": 3,
+                        "details": "Trend výzkumu afektivních počítačů ve vzdělávání se zvyšuje a očekává se, že všechny výukové aplikace budou mít zabudované schopnosti detekovat a monitorovat emoce žáků [1]. S rychlým rozvojem online vzdělávání je vývoj emočních modelů pro integraci do mobilních zařízení klíčový. Vzdělávací instituce hrají významnou roli ve společnosti, znalostech a technologiích, a proto jsou strategie pro výuku a výzkum zásadní."
+                    },
+                    {
+                        "id": 4,
+                        "details": "Navzdory flexibilitě a personalizovanému učení, které e-learningové prostředí nabízí, není tajemstvím, že e-learningová prostředí trpí nízkou účastí a vysokou mírou odchodů. Je známo, že předčasné ukončování e-learningových kurzů je výrazně vyšší než u kurzů probíhajících prezenčně. To je způsobeno jedním z hlavních nevýhod e-learningových prostředí, a to nedostatkem emocionální výměny ve srovnání s klasickým výukovým prostředím. [2]"
+                    },
+                    {
+                        "id": 5,
+                        "details": "V tomto vidím hlavní benefit sledování a zpracování emocí pro vzdělávací proces. Již dnes existují nástroje, které jsou schopny v reálném čase detekovat emoce (například https://visagetechnologies.com/HTML5/latest/Samples/ShowcaseDemo/ShowcaseDemo.html) . Takový nástroj by i v případě online výuky mohl vzdělavatele upozornit, že se něco děje například pokud vyhodnotil, že student je při plnění posledních dvou lekcí smutný. Následně by nějaký systém nebo sám tutor by mohl kontaktovat studenta, zda nepotřebuje konzultaci nebo jinou formu podpory."
+                    },
+                    {
+                        "id": 6,
+                        "details": "Dalším zajímavé uplatnění mi přijde určování emocionálního tónu textů. To umí pro anglické texty například imentiv.ai, když jsem zkusila češtinu na nástroj si nestěžoval, ale vše vyhodnotil jako neutrální. Zajímavý je také nástroj Watson z dílny IBM (https://www.ibm.com/demos/live/natural-language-understanding/self-service/home ), ten je ovšem plně placený."
+                    },
+                    {
+                        "id": 7,
+                        "details": "Zaujal mě ještě projekt Emotion Navigation (https://www.media.mit.edu/projects/emotional-navigation-system/overview/). Jeho hlavním cílem je asistovat lidem při transformaci zážitků z řízení. Tyto zážitky mohou být emocionálně stresující a vést k nepříznivým a potenciálně bezpečným situacím. Projekt se snaží tyto situace přeměnit na zdravé a příjemné zážitky, které podporují odolnost a pohodu."
+                    },
+                    {
+                        "id": 8,
+                        "details": ""
+                    },
+                    {
+                        "id": 9,
+                        "details": "[1] https://www.sciencedirect.com/science/article/pii/S0360131519302027"
+                    },
+                    {
+                        "id": 10,
+                        "details": "[2] https://link.springer.com/article/10.1007/s10639-021-10769-9"
+                    }
+                ]
+            },
+            {
+                sectionHeading: 'Výukové programovací jazyky',
+                sectionId: 4,
+                sectionDate: '05.01.2024',
+                sectionParagraphs:[
+                    {
+                        id: 1,
+                        details: "Úkolem ke čtvrté přednášce je vybrat jeden výukový programovací jazyk a popsat k němu nějakou vzdělávací lekci včetně jejího cíle, cílové skupiny a průběhu lekce."
+                    },
+                    {
+                        id: 2,
+                        details: "Moje zkušenost s programovacími jazyky, a to včetně těch výukových, je vzhledem k předchozímu studiu poměrně široká. Konkrétně jsem vedla kroužek Scratche pro děti ve věku 8-12 let, Pythonu, který byl určen středoškolákům. V bakalářské práci jsem se věnovala tvorbě výukových materiálů zaměřených na algoritmizaci a programování s využitím micro:bit. Měla jsem taky možnost vyzkoušet si jednu lekci s hedycode.com, což je stupňovitý programovací jazyk, který jak postupuje, tak se stále více blíží Pythonu. Přestože hedycode není český projekt, tak se díky dobrovolníkům průběžně překládá do češtiny a nyní jsou v češtině dostupné instrukce k úvodním úkolům, zbytek je dostupný v angličtině."
+                    },
+                    {
+                        id: 3,
+                        details: "Pro vypracování tohoto úkolu jsem zvolila Scratch protože ho znám nejlépe a myslím si, že dokážu dobře odhadnout, co se dá stihnout"
+                    },
+                    {
+                        id: 4,
+                        details: "Cíl lekce: Vytvoření základu pro první hru na principu chytání padajících objektů, na které si žáci vyzkouší:"
+                    },
+                    {
+                        id: 5,
+                        details: "•	Pracovat se Scratchem"
+                    },
+                    {
+                        id: 6,
+                        details: "•	Rozpohybovat postavy"
+                    },
+                    {
+                        id: 7,
+                        details: "•	Jak Scratch pracuje s cykly a jaké jsou druhy"
+                    },
+                    {
+                        id: 8,
+                        details: "•	Jak ve Scratchi fungují podmínky"
+                    },
+                    {
+                        id: 9,
+                        details: "Cílová skupina: Cíleno je na děti ve veku kolem deseti let, které už slyšeli o cyklu a podmínce (pokud ne, je potřeba vzít pomaleji. Vyzkoušeno, že baví i dospělé."
+                    },
+                    {
+                        id: 10,
+                        details: "Průběh lekce:"
+                    },
+                    {
+                        id: 11,
+                        details: "15 minut Seznámení se Scratchem"
+                    },
+                    {
+                        id: 12,
+                        details: "•	Otevřít Scratch, nastavit jazyk, otevřít prázdný projekt, nastavit pozadí"
+                    },
+                    {
+                        id: 13,
+                        details: "15 minut Postavy a kostýmy"
+                    },
+                    {
+                        id: 14,
+                        details: "•	Přidat postavu ježka a jablka, odstranit postavu kocoura"
+                    },
+                    {
+                        id: 15,
+                        details: "•	Podívat se na kostýmy ježka a připravit na otáčení"
+                    },
+                    {
+                        id: 16,
+                        details: "20 minut Pohyb ježka"
+                    },
+                    {
+                        id: 17,
+                        details: "•	Ukázat: kde jsou bloky, které budou potřeba"
+                    },
+                    {
+                        id: 18,
+                        details: "•	Úkol: Naprogramovat pohyb a otáčení ježka"
+                    },
+                    {
+                        id: 19,
+                        details: "PAUZA"
+                    },
+                    {
+                        id: 20,
+                        details: "40 minut Padání jablka"
+                    },
+                    {
+                        id: 21,
+                        details: "•	Vysvětlit cyklus – opakuj stále X opakuj dokud"
+                    },
+                    {
+                        id: 22,
+                        details: "•	Vysvětlit souřadnice – Scratch má [0;0] uprostřed"
+                    },
+                    {
+                        id: 23,
+                        details: "•	Úkol: Nastavit padání jablka"
+                    },
+                    {
+                        id: 24,
+                        details: "20 minut Podmínky"
+                    },
+                    {
+                        id: 25,
+                        details: "•	Potřebujeme, aby se jablko vrátilo zpátky na začátek, kdy?"
+                    },
+                    {
+                        id: 26,
+                        details: "•	-> Když něco"
+                    },
+                    {
+                        id: 27,
+                        details: "•	Oranžový blok s podmínkou – Co do ní můžeme vložit?"
+                    },
+                    {
+                        id: 28,
+                        details: "•	-> To, co bude v tom bloku tak se vykoná po splnění té podmínky."
+                    },
+                    {
+                        id: 29,
+                        details: "•	Úkol 1: Přidat dvě když: 1) dotýká se ježka 2) je moc dole (y < -160)"
+                    },
+                    {
+                        id: 30,
+                        details: "•	Úkol 2: Nastavit pomoci modrých bloku, aby se jablko vrátilo zpátky nahoru (y = 160)"
+                    },
+                    {
+                        id: 31,
+                        details: "Pokud se bude stíhat"
+                    },
+                    {
+                        id: 32,
+                        details: "•	Proměnné"
+                    },
+                    {
+                        id: 33,
+                        details: "•	Vytvořit proměnnou body"
+                    },
+                    {
+                        id: 34,
+                        details: "•	Nastavit ji po spuštěni hry na 0"
+                    },
+                    {
+                        id: 35,
+                        details: "•	Bude se zvětšovat pokaždé když jablko chytneme – kde je příslušný kus kódu?"
+                    },
+                    {
+                        id: 36,
+                        details: "Případně dál:"
+                    },
+                    {
+                        id: 37,
+                        details: "•	Vytvořit proměnou životy"
+                    },
+                    {
+                        id: 38,
+                        details: "•	Nastavit po spuštěni na 3"
+                    },
+                    {
+                        id: 39,
+                        details: "•	Odečítat při spadnuti jablka"
+                    },
+                    {
+                        id: 40,
+                        details: "•	Teď můžeme mít i záporný počet životů, jak to opravit?"
+                    },
+                    {
+                        id: 41,
+                        details: "Pokud bude někdo napřed a nudí se:"
+                    },
+                    {
+                        id: 42,
+                        details: "•	Scratch má možnost vytvářet vlastní bloky"
+                    },
+                    {
+                        id: 43,
+                        details: "•	Nemusí padat jen jablka, ale i něco jiného – rychleji/pomaleji, přidávat více/méně bodů"
+                    },
+                    {
+                        id: 44,
+                        details: "Odkaz na projekt: https://scratch.mit.edu/projects/573567541"
+                    }
+                ]
+            },
+            {
+                sectionHeading: 'Počítačové sítě',
+                sectionId: 5,
+                sectionDate: '05.01.2024',
+                sectionParagraphs:[
+                    {
+                        id: 1,
+                        details: "V pátém úkolu máme najít a popsat nějaký nástroj umožňující využít mobilní zařízení připojené na internet. Pokusit se najít situace ve kterých by byla lekce bez vybraných nástrojů realizovaná složitě a vyžadovala by využití jiných vyučovacích metod."
+                    },
+                    {
+                        id: 2,
+                        details: "Jednou z technologií, která umožňuje s efektivním využitím mobilních zařízení zatraktivnit výuku je rozšířená realita. Rozšířená realita má potenciál zlepšit různé aspekty vzdělávání, včetně zeměpisu, vědy, dějepisu, umění a odborného vzdělávání. AR dokáže oživit ploché mapy, v biologii může pomoci studentům prozkoumat lidské tělo, fyziku a chemii ve 3D, čímž se abstraktní pojmy stanou hmatatelnými."
+                    },
+                    {
+                        id: 3,
+                        details: "Nástrojem je zde aplikace Arloopa, která pracuje na principu rozšířené reality. Zobrazuje virtuální objekty do skutečného prostoru prostřednictvím kamery a obrazovky mobilního zařízení. Systém není zcela dokonalý, očekávám, že se v budoucnu bude tato nebo jiná aplikace rozvíjet, zlepšovat a nabídne větší množství objektů k zobrazení a tím i rozšíří využití."
+                    },
+                    {
+                        id: 4,
+                        details: "Jde o hybridní lekci v rámci školní výuky. Úvod lekce zahrnuje stručný přehled oběhové soustavy a jejích funkcí. Poté následuje představení mobilní aplikace pro rozšířenou realitu, kde studenti stahují aplikaci. Praktická část lekce zahrnuje úkol, kde studenti zobrazují virtuální modely srdce, cév a dalších orgánů v okolním prostoru, zkoumají struktury a sledují vzájemnou spolupráci částí. Následuje diskuse a otázky, které podporují rozpravu o získaných informacích a funkcích oběhové soustavy. Lekce končí závěrečným zhodnocením klíčových poznatků a zhodnocení práce s rozšířenou realitou."
+                    },
+                    {
+                        id: 5,
+                        details: "Studenti jsou schopni na 3D modelu identifikovat jednotlivé části lidského těla."
+                    },
+                    {
+                        id: 6,
+                        details: "Studenti dokáží popsat, jak spolu jednotlivé orgány kooperují."
+                    },
+                    {
+                        id: 7,
+                        details: "Studenti s ostatními sdílí své individuálně získané znalosti s 3D objektem."
+                    },
+                    {
+                        id: 8,
+                        details: "Situace:"
+                    },
+                    {
+                        id: 9,
+                        details: "Hybridní hodina: V případě nemožnosti využití mobilního zařízení a AR by studenti, kteří nejsou přítomni fyzicky byli omezení jen na 2D zobrazení, což by jim značně ztížilo učení a vytvořilo nerovnost v přístupu ke vzdělání."
+                    },
+                    {
+                        id: 10,
+                        details: "Nedostatek fyzických modelů: Ve třídě není k dispozici dostatek modelů pro studenty. Pokud má student k dispozici každý jeden orgán těžko bude zkoumat, jak interaguje s ostatními a následně to prezentovat ostatním."
+                    },
+                    {
+                        id: 11,
+                        details: "Výuka v učebně bez promítacího plátna: Vyučující má možnost ukazovat jen na (většinou) malém modelu, na kterém není mnoho vidět. Animace by mez plátna i mobilních zařízení by musel studentům ukazovat na nějaké vytvořené replice (například plíce z balónků)."
+                    }
+                ]
+            },
+            {
+                sectionHeading: 'Multimedia I',
+                sectionId: 6,
+                sectionDate: '05.01.2024',
+                sectionParagraphs:[
+                    {
+                        id: 1,
+                        details: "Úkolem tohoto týdne je popsat nějaký multimediální vzdělávací projekt a jak jeho tvůrci pracují s multimediálním obsahem. Toto doplnit o rady, které by mohli využít ostatní při tvorbě vlastního multimediálního vzdělávacího projektu."
+                    },
+                    {
+                        id: 2,
+                        details: "Pro tento úkol jsem si zvolila online platformu Google Arts & Culture na kterou jsem narazila, když jsem hledala nástroje, které pracují s rozšířenou realitou a velmi mě zaujal. Jsou zde dostupné obrazy a videa uměleckých děl z partnerských kulturních institucí po celém světě. Kromě pouhého zpřístupnění umění široké veřejnosti mě zaujal způsob, jakým s díly Google pracuje."
+                    },
+                    {
+                        id: 3,
+                        details: "Práce s multimédii v tomto projektu (https://artsandculture.google.com/):"
+                    },
+                    {
+                        id: 4,
+                        details: "Digitální sbírky: Google Arts & Culture obsahuje ve vysokém rozlišení digitální reprodukce uměleckých děl, historických artefaktů a kulturního dědictví z různých muzeí a institucí. Tyto digitální sbírky jsou nyní volně dostupné online a umožňují uživatelům pokročilé vyhledávání a doporučování děl na základě pokročilých filtrů. Je zde také možnost vytvářet si vlastní virtuální umělecké sbírky a kolekce."
+                    },
+                    {
+                        id: 5,
+                        details: "Virtuální prohlídky: Projekt poskytuje možnost virtuálních prohlídek muzeí a historických lokalit. Uživatelé mohou „procházet“ galeriemi, prohlížet si exponáty a zkoumat historická místa prostřednictvím rozhraní s možností pohybu. V některých institucích jsou k těmto prohlídkám dostupné i audio komentáře, které dodávají zážitku další rozměr."
+                    },
+                    {
+                        id: 6,
+                        details: "Interaktivní obsah: Google Arts & Culture nabízí interaktivní obsah, včetně výstav, příběhů, článků a projektů spojených s uměním a kulturou. Jsou zde k dispozici například hry a kvízy na mnoho různých témat. Tyto prvky nabízejí edukativní přístup a propojují umělecké dějiny s interaktivním přístupem ke vzdělání. Zajímavostí je funkce mobilní aplikace umožňující najít na základě selfie umělecká díla s portréty z databáze, které jsou osobě na fotce nejpodobnější."
+                    },
+                    {
+                        id: 7,
+                        details: "Inovativní technologie: Projekt využívá různé technologie, jako jsou umělá inteligence (například pro rozpoznávání obličejů nebo vyhledávání podobných uměleckých děl) a virtuální reality (pro virtuální prohlídky), což poskytuje uživatelům nový a zajímavý zážitek."
+                    },
+                    {
+                        id: 8,
+                        details: "Inspirace a rady pro tvůrce dalších multimediálních vzdělávací projektů:"
+                    },
+                    {
+                        id: 9,
+                        details: "Otevřený přístup k obsahu – Umožnění širokého přístupu k obsahu prostřednictvím digitálních sbírek. Zpřístupnění informací, které by jinak mohly být omezeny, a vytvoření prostoru pro šíření znalostí."
+                    },
+                    {
+                        id: 10,
+                        details: "Interaktivita a zapojení uživatelů – Integrace interaktivních prvků do projektu. Tyto prvky budou zapojovat uživatele. Virtuální prohlídky, hry nebo interaktivní lekce mohou posílit edukativní hodnotu."
+                    },
+                    {
+                        id: 11,
+                        details: "Multimediální přístup – Využívání různých forem médií. Od textu a obrázků po videa, zvuk a interaktivní prvky. Tím lze oslovit různorodé skupiny uživatel."
+                    },
+                    {
+                        id: 12,
+                        details: "Inovativní technologie – Aktuální technologie jako umělá inteligence nebo virtuální a rozšířená realita mohou přinést nové možnosti pro interakci a učení."
+                    },
+                    {
+                        id: 13,
+                        details: "Transparentnost platformy – Jasné informace o platformě, použitých technologiích a dostupnosti obsahu jsou klíčové pro uživatelskou přívětivost."
+                    },
+                    {
+                        id: 14,
+                        details: "Spolupráce s institucemi – Stojí za zvážení, zda nelze navázat spolupráci s muzei, školami nebo dalšími institucemi, dle zaměření projektu. To může otevřít dveře k rozsáhlejšímu obsahu a věrohodnosti."
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'Multimedia II',
+                sectionId: 7,
+                sectionDate: '05.01.2024',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Zadání osmého úkolu: Rád bych si od Vás přečetl zamyšlení o tom, co si myslíte, že by bylo možné snadno učit jako VR aktivitu, k čemu by se hodilo AR a kde si naopak na běžnou třídu nenecháte sáhnout. Motivace – některé studie píší, že vzdělávání je už hodně technizované a že současná situace nás vede k tomu, že málo sníme – zapomínáme na to, jak by mohla vypadat ideální výuka. A právě k takovému snění bych Vás rád přivedl."
+                    },
+                    {
+                        id: 2,
+                        details: "Vzdělávání již nějakou dobu stojí před výzvou využít technologie k vytvoření prostředí, které podporuje interaktivní a efektivní učení a studenty připraví na život v technologické době. Virtuální a rozšířená realita se staly neopomenutelnými v transformaci vzdělávání. Přinášejí nové možnosti pro pedagogy a mají zásadní vliv na zážitek studentů."
+                    },
+                    {
+                        id: 3,
+                        details: "Jako téměř vždy, řeší bude někde na pomezí. Z mého pohledu je nejdůležitější různorodost a přizpůsobení nejen žákům, ale i učitelům. Každý vyučující se cítí komfortně v jiném stylu výuky a to by se nemělo zapomínat."
+                    },
+                    {
+                        id: 4,
+                        details: "Výuku ve virtuální realitě si dokážu představit především v situacích, kdy není možné nebo finančně výhodné zažít danou situaci na vlastní kůži například virtuální prohlídky vzdálených nebo historických míst. Obecně však virtuální realita, v níž se nemůžeme pohybovat (což z prostorového omezení obvykle nelze) více než pár kroků, nemá z mého pohledu v běžné školní výuce příliš velkou přidanou hodnotu."
+                    },
+                    {
+                        id: 5,
+                        details: "Naopak v rozšířené realitě vidím velký potenciál. Není potřeba žádné speciální vybavení ani upravený prostor. Každý student může daný objekt studovat svým tempem a možností je mnoho. AR lze využívat jak jako rozšíření standardních, tak multimediálních učebnic. AR objekty jsou užitečné pro přírodní vědy při zkoumání nejrůznějších struktur. V historii při exkurzi si na zařízení, které nosíme v kapse přehrát co se na daném místě stalo. Téměř jako bychom tam byli. V matematice při zobrazování geometrických konstrukcí."
+                    },
+                    {
+                        id: 6,
+                        details: "Jistě někdo může namítnout, že s VR by byl zážitek intenzivnější, ale náklady, technická zařízení, potíže například lidí s brýlemi… Jsem fanoušek rozšířené reality. Pokud bych se měla skutečně zasnít, tak se velmi těším na holografické promítání, nic takového zatím neexistuje a musíme si vystačit s dvourozměrným promítání."
+                    },
+                    {
+                        id: 7,
+                        details: "Nemám aktuálně žádnou situaci, ve které bych si na „standardní“ podobu nenechala sáhnout. Mám ráda rozmanitost a střídání aktivit. Ostatně ještě před nějakými patnácti lety se ve výuce především diktovalo nebo opisovalo z učebnic. Před deseti jsme se spolužáky všechno zběsile opisovali z barevných prezentací. Co je běžná třída a hodina dnes už ani nevím. Klíčové je neustrnout a využívat technologie tak, aby nás nezatěžovaly. Technologie nejsou spásným a univerzálním řešením pro každý aspekt vzdělání. Tradiční třídy zůstávají nenahraditelným prvkem výuky, zejména v oblastech, kde je klíčový osobní kontakt, sociální interakce a týmová spolupráce."
+                    }
+                ]
+            },
+            {
+                sectionHeading: 'Webináře a online vzdělávání',
+                sectionId: 8,
+                sectionDate: '05.01.2024',
+                sectionParagraphs:[
+                    {
+                        id: 1,
+                        details: "Úkolem k další přednášce je prozkoumat existující webináře v naší oblasti zájmu a získat tak představu o tom jaká je situace v této oblasti. Cílem je v daném okruhu zmapovat konkurenci pro případ, že bychom se rozhodli vytvořit vlastní webinář."
+                    },
+                    {
+                        id: 2,
+                        details: "Rozhodla jsem se prozkoumat oblast webinářů na téma robotických hraček a interaktivní výuky informatiky především na základních školách. O této oblasti je nyní vzhledem ke změnám v RVP platným od září 2023 poměrně dost slyšet."
+                    },
+                    {
+                        id: 3,
+                        details: "Nejčastěji se webináře dělí na první a druhý stupeň ZŠ a pak na ty, které se týkají přímo hodin informatiky a ty, které se týkají rozvoje digitálních kompetencí v jiných předmětech. Dále pak jsou webináře přímo určené tematicky na konkrétní oblast nebo technologii. Měla jsem pocit, že je webinářů v této oblasti hodně, po začátku hledání myslím, že už nastal trochu útlum. Nacházím mnoho webinářů především z předešlých let. Také opakovaně narážím na webináře k umělé inteligenci ve výuce a pro děti."
+                    },
+                    {
+                        id: 4,
+                        details: "V minulosti jsem se nejčastěji o webinářích informovala prostřednictvím skupin pro učitele na sociálních sítích nebo přímo na webových stránkách institucí, jako je například národní pedagogický institut. Vzhledem k tomu, že cílovou skupinou jsou učitelé, by mohlo být efektivní propagovat tyto akce přímo ve školách. Protože se ve školním prostředí nepohybuju, nedokážu posoudit zda se ta děje a v jaké podobě."
+                    },
+                    {
+                        id: 5,
+                        details: "Co mě však zaujalo a překvapilo, byl obecný popis mnoha webinářů. Často narazím na názvy typu \"Robotika pro 1. stupeň\", které jsou poměrně nekonkrétní a mohou být matoucí. Mnohdy chybí podrobnější informace o obsahu, které by pomohly potenciálním účastníkům lépe pochopit, o co přesně půjde. To může vést k nízkému zájmu, protože lidé nemají jasno, co mohou od webináře očekávat."
+                    },
+                    {
+                        id: 6,
+                        details: "Dalším aspektem, který mě zaujal, byla různorodost platforem, na kterých se webináře konají. Některé organizace využívají vlastní platformy, některé zase preferují Zoom a u některých jsem se o konkrétní platformě bez registrace nedozvěděla. Jasná komunikace ohledně použité platformy by mohly přispět k větší transparentnosti a pohodlí pro potenciální účastníky."
+                    },
+                    {
+                        id: 7,
+                        details: "Webináře k tématu vypsané v budoucnu, na které jsem během průzkumu narazila:"
+                    },
+                    {
+                        id: 8,
+                        details: "https://vlavici.cz/webinar/1780"
+                    },
+                    {
+                        id: 9,
+                        details: "https://www.projektsypo.cz/webinare/kabinet-informatika-a-ict.html"
+                    },
+                    {
+                        id: 10,
+                        details: "https://elixir-do-skol-online-centrum.webnode.cz/l/setkani-6-robotika/"
+                    },
+                    {
+                        id: 11,
+                        details: "Mnoho dalších již proběhlých je dostupných ze záznamu i na youtube."
+                    }
+                ]
+
+            },
+            {
+                sectionHeading: 'Informační systémy ve vzdělávání',
+                sectionId: 9,
+                sectionDate: '05.01.2024',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Cílem je vyzkoušet si práci se školním vzdělávacím systémem edookit a nabídnout uživatelskou recenzi."
+                    },
+                    {
+                        id: 2,
+                        details: "Už jsem měla možnost s edookitem pracovat v rámci mých bakalářských praxí na střední škole, proto mě trochu překvapilo, že demo verze, kterou jsme dostali na vyzkoušení se trochu liší. Na základě proklikáni demo aplikace bych řekla, že tato verze ukazuje zobrazení pro ředitele, zatímco já pracovala se standardním zobrazením pro učitele."
+                    },
+                    {
+                        id: 3,
+                        details: "Edookit je jedním z mála nástrojů na českém trhu, který má zabudované takové množství funkcí s tím však souvisí to, že minimálně na první pohled působí značně přeplácaně. Mám z aplikace pocit, že tam úplně všechno, ale s tím, kde to najdu už příliš nepomáhá. Naopak oceňuji horní lištu, která zůstává neměnná ať jsem v rámci webu kdekoli a usnadňuje přepínání mezi jednotlivými částmi. Tlačítka jsou v liště navíc opatřená popisky, takže není třeba se spoléhat jen na ikony."
+                    },
+                    {
+                        id: 4,
+                        details: "Když se zaměřím na několik, řekla bych nejpoužívanějších částí. Zobrazení pošty není vůbec špatné především proto, že se rozložením podobá většině užívaných e-mailových klientů. Pozitivně hodnotím také oddělení omluvenek od ostatních zpráv."
+                    },
+                    {
+                        id: 5,
+                        details: "Další stránka je rozvrh, zde mi přijde poněkud nepraktické, že jako výchozí je zobrazen rozvrh, kterým je potřeba horizontálně scrolovat. Je zde však mnoho dalších možností, jaký rozvrh, jakým způsobem zobrazit. Myslím si, že se některé možnosti nacházejí i na více místech."
+                    },
+                    {
+                        id: 6,
+                        details: "Dále jsem zkusila zadat studentům známky. Nebyl to úkol, který bych zvládla bez nápovědy. Výběr hodnocení byl jasný, následná nutnost vytvořit nový sloupec asi dává smysl, ale pojmenování není příliš popisné a bez nápovědy bych na něho neklikla."
+                    },
+                    {
+                        id: 7,
+                        details: "Jsem zvyklá pracovat s obrazovkou rozdělenou mezi dvě aplikace abych nemusela často překlikávat. Zmenšení edookitu na polovinu není příliš praktická, mnoho obsahu se schová a není to moc komfortní."
+                    },
+                    {
+                        id: 8,
+                        details: "Celkový dojem není úplně špatný. Nejvíce bych doporučila zapracovat na designu a celkové přehlednosti systému. Pro uživatele, kteří v systému pracují často pravděpodobně není problém něco najít, protože ho znají dobře, pro začátečníky mi nepřijde intuitivní."
+                    }
+                ]
+
+            },
+            {
+                sectionHeading: 'OER a Universal design',
+                sectionId: 10,
+                sectionDate: '05.01.2024',
+                sectionParagraphs:[
+                    {
+                        id: 1,
+                        details: "Úkolem je položit si otázku, jak otevřený kurz udržet otevřený, ale současně k němu najít nějaký funkční ekonomický model. Nějaký model popsat uvést k němu okomentované výhody a nevýhody."
+                    },
+                    {
+                        id: 2,
+                        details: "V tomto semestru jsem absolvovala kurz KPI55, takže se mé návrhy budou vztahovat primárně k tomu, jak probíhal tento kurz. Očekávám však, že CORE053 má velmi podobnou organizaci."
+                    },
+                    {
+                        id: 3,
+                        details: "Napadají mě dva možné směry"
+                    },
+                    {
+                        id: 4,
+                        details: "Protože jde o primárně online kurzy, které mají poměrně vysokou míru studijní neúspěšnosti nabízí se zde možnost zavést nějakou penalizaci za nedokončení. Forma takového poplatku je nejlépe vymahatelná před započetím kurzu. Samozřejmě nesmí jít o kurz povinný nebo k němu musí být patřičná bezplatná náhrada. Vstupní poplatek v nějaké rozumné výši, který se úspěšným absolventům po skončení kurzu vrátí jednak zvyšuje pravděpodobnost dokončení a zároveň přinese finance pro tvůrce kurzu a umožní jeho další rozvoj."
+                    },
+                    {
+                        id: 5,
+                        details: "Pozitivem by měli být motivovanější účastníci, když za něco zaplatím svoje peníze obvykle o ně nechci přijít, navíc s vidinou získat je zpět. Další výhodou je možnost získat finanční prostředky od těch, kteří kurz nedokončí. Proti variantě obsahující nevratné školné zde student má vidinu návratu svých peněz i finančně nikoli “pouze“ ve formě nových znalostí a nemělo by to tedy tolik odrazovat."
+                    },
+                    {
+                        id: 6,
+                        details: "Negativem může být vysoké náklady na režii spojenou s hlídáním splněných podmínek a zaplacení poplatku. Negativem může být také finanční nedostupnost pro některé zájemce. Což se dá řešit splátkami nebo stipendiem, ale to opět zvyšuje nároky na organizaci."
+                    },
+                    {
+                        id: 7,
+                        details: "Obdobný model nyní využívá organizace Czechitas, která ve spolupráci s Googlem za startovné poskytne licenci ke studiu na Courseře [1]. K samotnému kurzu jsou podpůrné aktivity a skupiny. K dispozici jsou účastníkům konzultační hodiny s koučem a připomínky jednotlivých milníků ve studiu. Za splnění všech milníků a dokončení kurzu v daném čase účastníci dostanou certifikát, zůstane jim licence na kurz, a ještě dostanou zpět své startovné."
+                    },
+                    {
+                        id: 8,
+                        details: "Druhou variantou, která mě napadá je za poplatek možnost rozšířených konzultací a zpětných vazeb na úkoly nebo například zisk potvrzení o absolvování kurzu. Tento přístup umožňuje nechat kurz přístupný všem, ale těm, kteří mají zájem nabídne rozšířené služby."
+                    },
+                    {
+                        id: 9,
+                        details: "[1] https://www.czechitas.cz/google-cybersecurity-certificate"
+                    }
+                ]
+
+            },
+            // {
+            //     sectionHeading: '',
+            //     sectionId: ,
+            //     sectionDate: '',
+            //     sectionParagraphs:
+            // },
         ],
     },
 
