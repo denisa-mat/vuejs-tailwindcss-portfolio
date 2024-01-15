@@ -65,6 +65,7 @@ const projects = [
                 sectionHeading: 'Lorem ipsum',
                 sectionId: 1,
                 sectionDate: '23. 10. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -141,6 +142,7 @@ const projects = [
                 sectionHeading: 'Lorem ipsum',
                 sectionId: 1,
                 sectionDate: '23. 10. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -217,6 +219,7 @@ const projects = [
                 sectionHeading: 'Kreativní výzva číslo 6 návštěva kulturně kreativního centra KUMST',
                 sectionId: 1,
                 sectionDate: '09. 01. 2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -249,6 +252,7 @@ const projects = [
                 sectionHeading: 'Kreativní výzva číslo 10 aneb proč lidi pracují v kavárně',
                 sectionId: 2,
                 sectionDate: '09. 01. 2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -273,6 +277,7 @@ const projects = [
                 sectionHeading: 'Kreativní výzva číslo 15/20 návštěva galerií',
                 sectionId: 3,
                 sectionDate: '30. 11. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -321,6 +326,7 @@ const projects = [
                 sectionHeading: 'Další kreativní výzvy',
                 sectionId: 4,
                 sectionDate: '10. 01. 2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -409,6 +415,7 @@ const projects = [
                 sectionHeading: 'Lorem ipsum',
                 sectionId: 1,
                 sectionDate: '00. 00. 0000',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -484,6 +491,7 @@ const projects = [
                 sectionHeading: 'Lorem ipsum',
                 sectionId: 1,
                 sectionDate: '00. 00. 0000',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -559,6 +567,7 @@ const projects = [
                 sectionHeading: 'Umělá inteligence I',
                 sectionId: 1,
                 sectionDate: '06. 10. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -594,7 +603,8 @@ const projects = [
                 sectionHeading: 'Umělá inteligence II',
                 sectionId: 2,
                 sectionDate: '06. 10. 2023',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         "id": 1,
                         "details": "Úkol vztahující k druhé přednášce má dvě části. V první jsme si měli několik minut chatovat s ChatGPT a popsat naše pocity. V druhá část se odkazuje na úkol ze cvičení, kterým bylo vytvoření chatbota, konkrétně je úkolem popsat proces vymýšlení tématu."
@@ -625,7 +635,8 @@ const projects = [
                 sectionHeading: 'Zpracování emocí',
                 sectionId: 3,
                 sectionDate: '12. 10. 2023',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         "id": 1,
                         "details": "V návaznosti na lekci, která se věnovala počítačovému zpracování emocí je mým úkolem zjistit, co všechno se v oblasti vzdělávání a počítačového zpracování emocí nyní dělá a navrhnout s využitím konkrétního nástroje nebo podle postupu z literatury uplatnění v edukační praxi."
@@ -672,7 +683,8 @@ const projects = [
                 sectionHeading: 'Výukové programovací jazyky',
                 sectionId: 4,
                 sectionDate: '05.01.2024',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         id: 1,
                         details: "Úkolem ke čtvrté přednášce je vybrat jeden výukový programovací jazyk a popsat k němu nějakou vzdělávací lekci včetně jejího cíle, cílové skupiny a průběhu lekce."
@@ -855,7 +867,8 @@ const projects = [
                 sectionHeading: 'Počítačové sítě',
                 sectionId: 5,
                 sectionDate: '05.01.2024',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         id: 1,
                         details: "V pátém úkolu máme najít a popsat nějaký nástroj umožňující využít mobilní zařízení připojené na internet. Pokusit se najít situace ve kterých by byla lekce bez vybraných nástrojů realizovaná složitě a vyžadovala by využití jiných vyučovacích metod."
@@ -906,7 +919,8 @@ const projects = [
                 sectionHeading: 'Multimedia I',
                 sectionId: 6,
                 sectionDate: '05.01.2024',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         id: 1,
                         details: "Úkolem tohoto týdne je popsat nějaký multimediální vzdělávací projekt a jak jeho tvůrci pracují s multimediálním obsahem. Toto doplnit o rady, které by mohli využít ostatní při tvorbě vlastního multimediálního vzdělávacího projektu."
@@ -969,6 +983,7 @@ const projects = [
                 sectionHeading: 'Multimedia II',
                 sectionId: 7,
                 sectionDate: '05.01.2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -1004,7 +1019,8 @@ const projects = [
                 sectionHeading: 'Webináře a online vzdělávání',
                 sectionId: 8,
                 sectionDate: '05.01.2024',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         id: 1,
                         details: "Úkolem k další přednášce je prozkoumat existující webináře v naší oblasti zájmu a získat tak představu o tom jaká je situace v této oblasti. Cílem je v daném okruhu zmapovat konkurenci pro případ, že bychom se rozhodli vytvořit vlastní webinář."
@@ -1056,6 +1072,7 @@ const projects = [
                 sectionHeading: 'Informační systémy ve vzdělávání',
                 sectionId: 9,
                 sectionDate: '05.01.2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -1096,7 +1113,8 @@ const projects = [
                 sectionHeading: 'OER a Universal design',
                 sectionId: 10,
                 sectionDate: '05.01.2024',
-                sectionParagraphs:[
+                sectionVisible: false,
+                sectionParagraphs: [
                     {
                         id: 1,
                         details: "Úkolem je položit si otázku, jak otevřený kurz udržet otevřený, ale současně k němu najít nějaký funkční ekonomický model. Nějaký model popsat uvést k němu okomentované výhody a nevýhody."
@@ -1140,6 +1158,7 @@ const projects = [
                 sectionHeading: 'Výzkum v EdTechu',
                 sectionId: 11,
                 sectionDate: '14.01.2024',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -1230,6 +1249,7 @@ const projects = [
                 sectionHeading: 'Úkol 1',
                 sectionId: 1,
                 sectionDate: '2. 10. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 0,
@@ -1277,8 +1297,9 @@ const projects = [
             },
             {
                 sectionHeading: 'Úkol 2',
-                sectionId: 1,
+                sectionId: 2,
                 sectionDate: '9. 10. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 0,
@@ -1314,8 +1335,9 @@ const projects = [
             },
             {
                 sectionHeading: 'Úkol 3',
-                sectionId: 1,
+                sectionId: 3,
                 sectionDate: '20. 11. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 0,
@@ -1331,8 +1353,9 @@ const projects = [
             },
             {
                 sectionHeading: 'Úkol 4',
-                sectionId: 1,
+                sectionId: 4,
                 sectionDate: '27. 11. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 0,
@@ -1390,8 +1413,9 @@ const projects = [
             },
             {
                 sectionHeading: 'Úkol 5',
-                sectionId: 1,
+                sectionId: 5,
                 sectionDate: '4. 12. 2023',
+                sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
@@ -1462,6 +1486,7 @@ const projects = [
 // 				sectionHeading: 'Lorem ipsum',
 // 				sectionId: 1,
 // 				sectionDate: '00. 00. 0000',
+//              sectionVisible: false,
 // 				sectionParagraphs: [
 // 					{
 // 						id: 1,
