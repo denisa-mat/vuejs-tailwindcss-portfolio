@@ -1137,7 +1137,7 @@ const projects = [
 
             },
             {
-                sectionHeading: 'Vyzkumz v EdTechu',
+                sectionHeading: 'Výzkum v EdTechu',
                 sectionId: 11,
                 sectionDate: '14.01.2024',
                 sectionParagraphs: [
