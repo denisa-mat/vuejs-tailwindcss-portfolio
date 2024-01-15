@@ -260,7 +260,7 @@ const projects = [
                     },
                     {
                         id: 3,
-                        details: "Řekla jsem si, že další váhání už nepřichází v úvahu a šla za druhým vybraným. Byl to mladší muž, který většinu času seděl u stolu s dalšími lidmi, ale ti v tuhle chvíli někam šli. Sice nevypadal, že by se semnou chtěl příliš bavit, ale vyndal si sluchátko z ucha. Vysvětlila jsem mu situaci a co by mě zajímalo. Dozvěděla jsem se, že je zaměstnanec kavárny, nevím, co přesně tam dělá, ale chodí tam pracovat, protože má kávu zadarmo. Další pozitivum proti domovu je prý podstatně větší vzdálenost od postele. Občas prý chodí i do jiných kaváren, a to ze stejných důvodů (kávu má prý zadarmo jen někde). Ptala jsem se, jestli vidí na práci v kavárně nějaká negativa a prý ne."
+                        details: "Rozhodla jsem se, že už nebudu váhat, a vydala jsem se za druhým vybraným. Oslovila jsem mladšího muže, který většinu času trávil u stolu s ostatními lidmi, ale ti právě odešli. I když nevypadal, že by měl velký zájem o konverzaci, vytáhl si sluchátko z ucha. Vysvětlila jsem mu situaci a sdělila, co by mě zajímalo. Zjistila jsem, že je zaměstnancem této kavárny, ačkoli nevím přesně, jakou pozici tam zastává. Dochází tam pracovat, primárně protože si může dát kávu zdarma. Jako další výhodu oproti domovu zmínil výrazně větší vzdálenost od postele. Občas prý navštěvuje i jiné kavárny z podobných důvodů (někde má prý i tu kávu zdarma). Zeptala jsem se ho, zda vidí nějaká negativa v práci v kavárně, ale odpověděl stručně, že ne."
                     },
                     {
                         id: 4,
@@ -583,6 +583,10 @@ const projects = [
                     {
                         id: 6,
                         details: "[1] JEDLIČKOVÁ, Anetta. Etické aspekty rozvoje umělé inteligence. Anthropologia integra [online]. 2022, Vol. 13, No. 2. [cit. 2024-10-05]. Dostupné z: https://journals.muni.cz/anthropologia_integra/article/view/32983/28375"
+                    },
+                    {
+                        id: 7,
+                        details: "K zobrazení komentářové sekce dole na stránce je třeba zadat mé UČO: 485131."
                     },
                 ]
             },
@@ -1132,12 +1136,33 @@ const projects = [
                 ]
 
             },
-            // {
-            //     sectionHeading: '',
-            //     sectionId: ,
-            //     sectionDate: '',
-            //     sectionParagraphs:
-            // },
+            {
+                sectionHeading: 'Vyzkumz v EdTechu',
+                sectionId: 11,
+                sectionDate: '14.01.2024',
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: "Posledním úkolem vycházejícím z přednášek je popsat nějaký etický problém v EdTechovém výzkumu a napsat, jak bychom ho řešili."
+                    },
+                    {
+                        id: 2,
+                        details: "V edTechu se lze zabývat výzkumem edukačních technologií na základě poptávky konkrétní firmy. Výzkumníci jsou pak financování těmito společnostmi a může dojít k tlaku na prezentaci pozitivních výsledků, což může narušit objektivitu a spolehlivost výzkumu. Potom hrozí vytváření a šíření zkreslených výsledků v důsledku konfliktu zájmů."
+                    },
+                    {
+                        id: 3,
+                        details: "Pro vyřešení takového problému se jako nejjednodušší východisko zdá nespolupracovat s takovými institucemi, jak to ale udělat, když není jiná cesta? Pro zachování nezávislosti výzkumného procesu je zásadní transparentnost finančních vztahů, což znamená, že výzkumníci by měli otevřeně prezentovat informace o jakýchkoliv finančních spojeních s firmami nebo jinými organizacemi, které mají zájem na výsledcích jejich výzkumu. Tato transparentnost by měla zahrnovat detaily o sponzorech a podmínkách finanční spolupráce."
+                    },
+                    {
+                        id: 4,
+                        details: "Zároveň je nezbytné ponechat k datům otevřený přístup a poskytnout tak možnost ostatním vědcům zkontrolovat a reprodukovat výsledky. Tím lze zvýšit transparentnost a snížit riziko zkreslení ve prospěch sponzorujících firem. S tím souvisí nezávislé hodnocení výsledků a metodiky, které může sloužit jako mechanismus kontroly a prevence případného zkreslení v důsledku konfliktu zájmů."
+                    },
+                    {
+                        id: 5,
+                        details: "V neposlední řadě je dobré zdůraznit vědeckou integritu výzkumníků. Hodnota vědecké integrity by měla mít přednost před krátkodobými zájmy, což zahrnuje pravdivou prezentaci výsledků. Jak pozitivních, tak negativních aspektů studie. Tím lze dosáhnout důvěryhodného, transparentního a etického výzkumného prostředí."
+                    }
+                ]
+            },
         ],
     },
 
