@@ -1493,7 +1493,7 @@ const projects = [
             }
         ],
     },
-    
+
 
 // KOD NAZEV
 // 	{
