@@ -363,7 +363,7 @@ const projects = [
         category: '1. semestr',
         img: 'https://cdn.pixabay.com/photo/2020/05/31/16/48/write-5243229_960_720.jpg',
         //img: 'https://drive.google.com/uc?export=view&id=1avWnmOJqyZU9NvgTavNyR_FLnCUrYQNv',
-        createdDate: '00. 00. 0000',
+        createdDate: '31. 1. 2024',
         tag: 'kisk',
         about: 'O předmětu',
         aboutDetail: [
@@ -403,30 +403,98 @@ const projects = [
             // 'JS',
             // 'VUE'
         ],
-        projectDetailsHeading: 'Příspěvek se připravuje',
+        //projectDetailsHeading: 'Příspěvek se připravuje',
         projectDetails: [
             {
                 id: 1,
-                details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                details: 'Ukončení předmětu se skládá z rešerše zvoleného tématu k diplomové práci a reflexí na některé předměty z podzimního semestru. Právě tyto reflexe se nacházejí na řádcích níže.'
             },
         ],
         content: [
             {
-                sectionHeading: 'Lorem ipsum',
+                sectionHeading: 'ISKM01',
                 sectionId: 1,
-                sectionDate: '00. 00. 0000',
+                sectionDate: '31. 01. 2024',
                 sectionVisible: false,
                 sectionParagraphs: [
                     {
                         id: 1,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
+                        details: 'Informační vědy byly velmi zajímavý a tematicky velmi rozsáhlý různorodý předmět. Přednášky mě bavily svojí komplexností, tak trochu teorie o všem, co může informační věda obsahovat. V průběhu semestru jsme několikrát měli možnost se spolužáky diskutovat naše různé pohledy na věc. Pokud jde o zkoušku v určitých momentech mi přišly otázky poměrně záludné, ale vše bylo zvládnutelné a forma testu s uzavřenými otázkami mi vyhovovala. I když jsem přišla z jiného oboru umožnil mi tento předmět propojit několik témat do uceleného celku.\n'
                     },
-                    {
-                        id: 2,
-                        details: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nam quis nulla. Suspendisse nisl. Duis risus. Nulla pulvinar eleifend sem. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. '
-                    }
                 ]
-            }
+            },
+            {
+                sectionHeading: 'ISKM02',
+                sectionId: 2,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Díky předmětu Design informačních služeb, rozhraní a interakcí jsem se seznámila s designovými koncepty. Návrh designu nejen digitálních produktů jsme si mohli vyzkoušet na několika praktických úkolech, díky nimž jsme mohli aplikovat teorii do praxe. Vyhovovalo mi, že do předmětu bylo pozváno mnoho hostů, kteří tak pokryli množství designových odvětví. Oceňuji také, že jsme si mohli vybrat jakým způsobem předmět zakončíme. Já si zvolila rozhovor s designérkou. Tvorba byla náročnější, než jsem čekala, ale i tak mě to bavilo a jsem ráda, že jsem si to mohla vyzkoušet.'
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'ISKM03',
+                sectionId: 3,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Během studia předmětu Literatura knihovní procesy a trh jsme v první části důkladně nahlédli do klíčových aspektů knihovních procesů a dynamiky trhu s literaturou. Tento kurz mi poskytl přehled o fungování knihoven jako institucí, včetně jejich role ve sdílení informací, podpoře vzdělávání a kulturním aktivitám. Výstupem z této části byla esej, kterou jsem psala na téma Proměny literárního setkání. Další částí byly tři kreativní a jedna knihovní výzva. Díky těmto výzvám jsem se podívala na místa kam bych pravděpodobně jinak nešla. Poslední částí byla skupinová tvorba edice. Protože nikdo z naší skupiny není původně z KISKu měly jsme trochu obavy. Nakonec jsme se však rozhodly si najít téma, které nás zajímá a vytvořit edici tematicky pokrývající datovou gramotnost pro děti. Myslím, že bylo znát, že jsme si vybrali téma nám blízké a dopadlo to dobře. Přestože jsem od předmětu příliš neočekávala, a ještě nemám závěrečné hodnocení, nakonec mi úkoly přišli zajímavé a vyzkoušela jsem si na nich několik nových dovedností.'
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'ISKM04',
+                sectionId: 4,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Vymyslet a zrešeršovat téma byl pravděpodobně nejnáročnější úkol celého semestru. Mám pocit, že jsem nedávno dopsala bakalářskou práci, sotva se rozkoukávám na KISKu a už si mám vybrat oblast a téma kterému se chci věnovat. Stále mám ze své práce poněkud rozporuplné pocity.'
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'ISKM29',
+                sectionId: 5,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Na začátku semestru po zveřejnění hostů jsem se obávala, že se letos sešlo mnoho hostů, jejichž témata mě příliš nezaujala. Nakonec to tak, ale nebylo, a i zde jsem si při tvorbě digitálních artefaktů vyzkoušela něco nového. Jedním z vytvořených artefaktů byl podcast, který jsem nikdy dřív nevytvářela, a tak to pro mě byla novinka, která mě ale velmi bavila. Hosté byli inspirativní a každá přednáška mě něčím obohatila.'
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'ISKM31',
+                sectionId: 6,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Na tomto předmětu nejvíce oceňuji přednášky, které naprosto splnily má očekávání. Každá přednáška přinesla hlubší vhled do moderních trendů a technologií, které obohacují vzdělávací prostředí.  Pokud bych šla pouze po faktech je možné, že jsem vetší část již znala. Načerpala jsem však zásobu nástrojů, které lze využívat ve výuce včetně tipů jak na ně. Významným prvkem předmětu jsou cvičení, která jsou prováděna metodou obrácené třídy. Tato metoda poskytuje příležitost pracovat samostatně a aktivně se zapojit do procesu učení. Přestože mám k cvičení nějaké výhrady (které byly sděleny cvičící), hodnotím předmět velmi pozitivně. Časová náročnost byla pravděpodobně vyšší než u jiných předmětů na KISKu, ale nic nezvládnutelného. Většina úkolů mě bavila a myslím, že většinu nástrojů jsem v budoucnu schopna aktivně využít ve své (nejen) pedagogické praxi.'
+                    },
+                ]
+            },
+            {
+                sectionHeading: 'ISKM55',
+                sectionId: 7,
+                sectionDate: '31. 01. 2024',
+                sectionVisible: false,
+                sectionParagraphs: [
+                    {
+                        id: 1,
+                        details: 'Nástroje a metody datové analytiky mi přijdou jako velmi fajn předmět pro lidi, kteří jsou v oblasti datové analytiky nováčci a moc nevědí o co jde. Já už s tím nějakou zkušenost mám proto mi většina hodin nic nového nedala. V některých momentech mi nevyhovoval poněkud nesoustředěný a roztěkaný výklad. Je to však pouze subjektivní názor.'
+                    },
+                ]
+            },
         ],
     },
 
@@ -1291,7 +1359,7 @@ const projects = [
                     },
                     {
                         id: 6,
-                        details: 'Vyzkoušela jsem se dotazovat pomocí služby postman na PokeAPI. Musím říct, že jsem si pro zkoušení asi měla vybrat nějaké jednodušší. Vzhledem k množství pokemonů a informací, které o jednotlivých pokémonech jsou nebylo jednoduché se ve výsledku vyznat. Nicméně podařilo se mi získat například seznam všech pokémonů mužského pohlaví (pokeapi.co/api/v2/gender/2/) nebo informace o mém oblíbeném Piplupovi (https://pokeapi.co/api/v2/pokemon/piplup).'
+                        details: 'Vyzkoušela jsem se dotazovat pomocí služby postman na PokeAPI. Musím říct, že jsem si pro zkoušení asi měla vybrat nějaké jednodušší. Vzhledem k množství pokemonů a informací, které o jednotlivých pokémonech jsou nebylo jednoduché se ve výsledku vyznat. Nicméně podařilo se mi získat například seznam všech pokémonů mužského pohlaví (<ins>[pokeapi](pokeapi.co/api/v2/gender/2/)</ins>) nebo informace o mém oblíbeném Piplupovi (https://pokeapi.co/api/v2/pokemon/piplup).'
                     },
                 ]
             },
@@ -1425,6 +1493,8 @@ const projects = [
             }
         ],
     },
+
+
 
 
 // KOD NAZEV

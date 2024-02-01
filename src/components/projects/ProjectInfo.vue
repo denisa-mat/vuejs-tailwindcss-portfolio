@@ -17,6 +17,7 @@
 import {defineComponent, onMounted, onUpdated, ref} from "vue";
 import feather from "feather-icons";
 import {ElementTypeEnum} from "@/model/ElementTypeEnum.ts";
+import { marked } from 'marked'
 
 
 export default defineComponent({
@@ -24,6 +25,10 @@ export default defineComponent({
     ElementTypeEnum() {
       return ElementTypeEnum
     }
+    // ,
+    // markdownToHtml(md){
+    //   return marked(md);
+    // }
   },
   data() {
     return {
@@ -34,6 +39,9 @@ export default defineComponent({
   methods: {
     showHide(sectionId) {
       this.state[sectionId] = !this.state[sectionId]
+    },
+    markdownToHtml(md){
+      return marked(md);
     }
   },
   setup() {
@@ -152,10 +160,17 @@ export default defineComponent({
               :key="paragraph.id"
               class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
           >
-            <p v-if="(paragraph.type !== undefined
-          && paragraph.type === ElementTypeEnum.Text) || paragraph.type === undefined">
-              {{ paragraph.details }}
-            </p>
+
+<!--            <p v-if="(paragraph.type !== undefined-->
+<!--          && paragraph.type === ElementTypeEnum.Text) || paragraph.type === undefined">-->
+<!--              {{ paragraph.details }}-->
+<!--            </p>-->
+
+            <div v-if="(paragraph.type !== undefined
+                      && paragraph.type === ElementTypeEnum.Text) || paragraph.type === undefined"
+                 v-html="markdownToHtml(paragraph.details)"
+                 ></div>
+
             <img
                 v-else-if="paragraph.type === ElementTypeEnum.Image"
                 :src="paragraph.details"
